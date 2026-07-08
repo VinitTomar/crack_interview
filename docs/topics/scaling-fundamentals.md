@@ -15,8 +15,9 @@ Vertical scaling (bigger machines) vs horizontal scaling (more machines), statel
 
 ## Resources
 
-- [Hello Interview How to Prepare ↗](https://www.hellointerview.com/learn/system-design/in-a-hurry/how-to-prepare)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: How to Prepare ↗](https://www.hellointerview.com/learn/system-design/in-a-hurry/how-to-prepare)
+- [ByteByteGo: Vertical Vs Horizontal Scaling ↗](https://www.youtube.com/watch?v=dvRFHG2-uYs)
+- [System Design: Back-Of-The-Envelope Estimation ↗](https://www.youtube.com/watch?v=WZjSFNPS9Lo)
 
 ## Covered by Problems
 

@@ -25,6 +25,11 @@ Periodic data collection, change detection, time-series storage, and alerting at
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/camelcamelcamel)
 
+## Video Walkthroughs
+
+- [System Design: Price Drop Tracker (FAANG Senior Engineer) →](https://www.youtube.com/watch?v=7CBR2uLtqqk)
+- [Design a Price Drop Tracker — DB Design & Camelcamelcamel Deep Dive →](https://www.youtube.com/watch?v=SFOoxLH7IdU)
+
 ## Approach Hints
 
 - Scheduled scrape jobs per product (cron-based with random jitter to avoid thundering herd against retailers)

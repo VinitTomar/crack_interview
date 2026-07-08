@@ -15,8 +15,9 @@ Operational Transformation (OT) for collaborative text editing, Conflict-Free Re
 
 ## Resources
 
-- [Hello Interview Google Docs Breakdown ↗](https://www.hellointerview.com/learn/system-design/problem-breakdowns/google-docs)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Google Docs Breakdown ↗](https://www.hellointerview.com/learn/system-design/problem-breakdowns/google-docs)
+- [System Design: Google Docs — OT, CRDT, Versioning ↗](https://www.youtube.com/watch?v=Xbh0G38Rk78)
+- [Ex-Google SWE: Collaborative Text Editing — OT vs CRDT ↗](https://www.youtube.com/watch?v=uOKrTc3Q0D0)
 
 ## Covered by Problems
 

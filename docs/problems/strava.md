@@ -31,3 +31,8 @@ GPS data ingestion, activity analysis, leaderboards, time series data.
 - Compute activity statistics (distance, pace, elevation) async after upload
 - Serve segment leaderboards from precomputed Redis sorted sets
 - Store activity summaries in PostgreSQL for complex queries
+
+## Video Walkthroughs
+
+- [System Design - Design Strava →](https://www.youtube.com/watch?v=9tic0WUGYjI)
+- [Low Level Design of a Fitness App (Mock LLD Interview) →](https://www.youtube.com/watch?v=7-A5NgGrJqY)

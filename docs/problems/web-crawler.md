@@ -26,6 +26,11 @@ Distributed crawling at scale, URL management, politeness constraints, deduplica
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/web-crawler)
 
+## Video Walkthroughs
+
+- [System Design Interview: Design a Web Crawler (Ex-Meta Staff Engineer) →](https://www.youtube.com/watch?v=krsuaUp__pM)
+- [System Design Interview: Design a Web Crawler →](https://www.youtube.com/watch?v=l9z5_YSIZyM)
+
 ## Approach Hints
 
 - URL frontier has two layers: a priority queue (recency, PageRank) and per-domain back queues with crawl-delay enforcement for politeness

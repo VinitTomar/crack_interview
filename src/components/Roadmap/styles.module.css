@@ -311,6 +311,26 @@
   color: #b91c1c;
 }
 
+.diffFundamentals {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.diffPatterns {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.diffProblems {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.diffDefault {
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-700);
+}
+
 .expandIcon {
   font-size: 0.7rem;
   color: var(--ifm-color-emphasis-500);

@@ -15,8 +15,9 @@ HTTP/HTTPS (request-response, headers, status codes), DNS resolution, TCP vs UDP
 
 ## Resources
 
-- [Hello Interview Networking Essentials ↗](https://www.hellointerview.com/learn/system-design/core-concepts/networking-essentials)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Networking Essentials ↗](https://www.hellointerview.com/learn/system-design/core-concepts/networking-essentials)
+- [ByteByteGo: Top 8 Most Popular Network Protocols Explained ↗](https://www.youtube.com/watch?v=P6SZLcGE4us)
+- [Hussein Nasser: The OSI Model by Example ↗](https://www.youtube.com/watch?v=eNF9z5JNl-A)
 
 ## Covered by Problems
 

@@ -15,8 +15,9 @@ High-throughput event ingestion, server-side click deduplication, windowed count
 
 ## Resources
 
-- [Hello Interview Ad Click Aggregator Breakdown ↗](https://www.hellointerview.com/learn/system-design/problem-breakdowns/ad-click-aggregator)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Ad Click Aggregator Breakdown ↗](https://www.hellointerview.com/learn/system-design/problem-breakdowns/ad-click-aggregator)
+- [Gaurav Sen: Realtime Advertisement Clicks Aggregator ↗](https://www.youtube.com/watch?v=_b6FniEjiR4)
+- [System Design Interview: Ad Click Aggregator (Kafka + Idempotency) ↗](https://www.youtube.com/watch?v=uPjV-z3XrOE)
 
 ## Covered by Problems
 

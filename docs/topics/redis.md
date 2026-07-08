@@ -15,8 +15,9 @@ Data structures (strings, hashes, sorted sets, lists, sets, bitmaps, HyperLogLog
 
 ## Resources
 
-- [Hello Interview Redis Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/redis)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Redis Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/redis)
+- [ByteByteGo: Why is Single-Threaded Redis So Fast? ↗](https://www.youtube.com/watch?v=5TRFpFBccQM)
+- [Hussein Nasser: Redis Pub-Sub vs Kafka ↗](https://www.youtube.com/watch?v=73Utd7nDYDs)
 
 ## Covered by Problems
 

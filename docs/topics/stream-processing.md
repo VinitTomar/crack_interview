@@ -15,8 +15,9 @@ Kafka as an event log, Flink/Kinesis for stateful stream processing, windowed ag
 
 ## Resources
 
-- [Hello Interview Flink Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/flink)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Flink Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/flink)
+- [ByteByteGo: Why is Kafka Fast? ↗](https://www.youtube.com/watch?v=UNUz1-msbOM)
+- [System Design: Kafka, Flink, Spark, Exactly-Once Semantics ↗](https://www.youtube.com/watch?v=Sr-yxcpWVKI)
 
 ## Covered by Problems
 

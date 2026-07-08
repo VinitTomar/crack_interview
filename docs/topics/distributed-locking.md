@@ -15,8 +15,9 @@ Why distributed locks are needed, Redis-based locks (SET NX EX), Redlock algorit
 
 ## Resources
 
-- [Hello Interview Dealing with Contention ↗](https://www.hellointerview.com/learn/system-design/patterns/dealing-with-contention)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Dealing with Contention ↗](https://www.hellointerview.com/learn/system-design/patterns/dealing-with-contention)
+- [Gaurav Sen: Distributed Locks ↗](https://www.youtube.com/watch?v=v7x75aN9liM)
+- [Ex-Google SWE: Distributed Locking ↗](https://www.youtube.com/watch?v=Lp8oITg0MiI)
 
 ## Covered by Problems
 

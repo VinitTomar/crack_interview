@@ -15,8 +15,9 @@ Cache-aside pattern with Redis/Memcached, write-through vs write-back, eviction 
 
 ## Resources
 
-- [Hello Interview Caching ↗](https://www.hellointerview.com/learn/system-design/core-concepts/caching)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Caching ↗](https://www.hellointerview.com/learn/system-design/core-concepts/caching)
+- [ByteByteGo: Cache Systems Every Developer Should Know ↗](https://www.youtube.com/watch?v=dGAgxozNWFE)
+- [ByteByteGo: Caching Pitfalls Every Developer Should Know ↗](https://www.youtube.com/watch?v=wh98s0XhMmQ)
 
 ## Covered by Problems
 

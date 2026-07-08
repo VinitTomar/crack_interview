@@ -15,8 +15,9 @@ Lambda architecture (batch layer + speed layer + serving layer), Kappa architect
 
 ## Resources
 
-- [Hello Interview Flink Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/flink)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Flink Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/flink)
+- [ByteByteGo: What is a Data Pipeline? ↗](https://www.youtube.com/watch?v=kGT4PcTEPP8)
+- [ByteByteGo: Why is Kafka so Popular? ↗](https://www.youtube.com/watch?v=yIAcHMJzqJc)
 
 ## Covered by Problems
 

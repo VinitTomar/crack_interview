@@ -58,6 +58,54 @@ const sidebars = {
     },
   ],
 
+  lldTopicsSidebar: [
+    {
+      type: 'category',
+      label: 'Fundamentals',
+      items: [
+        'lld/topics/oop-fundamentals',
+        'lld/topics/solid-principles',
+        'lld/topics/object-relationships',
+        'lld/topics/interfaces-vs-abstract',
+        'lld/topics/design-principles',
+        'lld/topics/uml-diagrams',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Patterns',
+      items: [
+        'lld/topics/creational-patterns',
+        'lld/topics/structural-adapter-decorator',
+        'lld/topics/structural-facade-proxy',
+        'lld/topics/structural-composite-bridge',
+        'lld/topics/behavioral-observer-strategy',
+        'lld/topics/behavioral-command-template',
+        'lld/topics/behavioral-iterator-state',
+        'lld/topics/behavioral-chain-mediator',
+        'lld/topics/dependency-injection',
+        'lld/topics/concurrency-patterns',
+      ],
+    },
+  ],
+
+  lldProblemsSidebar: [
+    {
+      type: 'category',
+      label: 'Machine Coding Problems',
+      items: [
+        'lld/problems/parking-lot',
+        'lld/problems/lru-cache',
+        'lld/problems/elevator-system',
+        'lld/problems/library-management',
+        'lld/problems/hotel-booking',
+        'lld/problems/vending-machine',
+        'lld/problems/ride-sharing',
+        'lld/problems/rate-limiter-lld',
+      ],
+    },
+  ],
+
   problemsSidebar: [
     {
       type: 'category',

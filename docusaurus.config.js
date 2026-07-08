@@ -1,48 +1,48 @@
 // @ts-check
-import { themes as prismThemes } from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'System Design Roadmap',
-  tagline: '35 topics · 30 interview problems · Beginner to Advanced',
-  favicon: 'img/favicon.ico',
+  title: "Crack Interview",
+  tagline: "HLD & LLD roadmaps for software engineering interviews",
+  favicon: "img/favicon.ico",
 
   future: {
     v4: true,
   },
 
   // Update these two when you push to GitHub Pages:
-  url: 'https://your-github-username.github.io',
-  baseUrl: '/learn-notes/',
+  url: "https://your-github-username.github.io",
+  baseUrl: "/",
 
-  organizationName: 'your-github-username',
-  projectName: 'learn-notes',
-  deploymentBranch: 'gh-pages',
+  organizationName: "your-github-username",
+  projectName: "Crack Interview",
+  deploymentBranch: "gh-pages",
   trailingSlash: false,
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: "warn",
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownLinks: "warn",
     },
   },
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -52,42 +52,56 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: "light",
         disableSwitch: false,
       },
       navbar: {
-        title: 'System Design Roadmap',
+        title: "Crack Interview",
         items: [
-          { to: '/', label: 'Roadmap', position: 'left' },
-          { to: '/docs/intro', label: 'How to Use', position: 'left' },
-          {
-            type: 'docSidebar',
-            sidebarId: 'topicsSidebar',
-            position: 'left',
-            label: 'Topics',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'problemsSidebar',
-            position: 'left',
-            label: 'Problems',
-          },
+          { to: "/", label: "Home", position: "left" },
+          { to: "/hld", label: "HLD Roadmap", position: "left" },
+          { to: "/lld", label: "LLD Roadmap", position: "left" },
         ],
       },
       footer: {
-        style: 'light',
+        style: "light",
         links: [
           {
-            title: 'Source Resources',
+            title: "HLD Resources",
             items: [
-              { label: 'Hello Interview', href: 'https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction' },
-              { label: 'Gaurav Sen Playlist', href: 'https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX' },
-              { label: 'InterviewReady', href: 'https://interviewready.io/course-page/system-design-course' },
-              { label: 'Hello Interview YouTube', href: 'https://www.youtube.com/@hello_interview/playlists' },
+              {
+                label: "Hello Interview: System Design",
+                href: "https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction",
+              },
+              {
+                label: "Gaurav Sen Playlist",
+                href: "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
+              },
+              {
+                label: "InterviewReady",
+                href: "https://interviewready.io/course-page/system-design-course",
+              },
+            ],
+          },
+          {
+            title: "LLD Resources",
+            items: [
+              {
+                label: "Hello Interview: OOD",
+                href: "https://www.hellointerview.com/learn/code/object-oriented-design/introduction",
+              },
+              {
+                label: "Refactoring.Guru",
+                href: "https://refactoring.guru/design-patterns",
+              },
+              {
+                label: "Grokking OO Design",
+                href: "https://github.com/tssovi/grokking-the-object-oriented-design-interview",
+              },
             ],
           },
         ],
-        copyright: `Built for system design interview prep.`,
+        copyright: `Built for interview prep.`,
       },
       prism: {
         theme: prismThemes.github,

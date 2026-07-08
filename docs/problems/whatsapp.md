@@ -32,3 +32,8 @@ Real-time messaging, delivery receipts, group chat, media sharing.
 - Store messages in Cassandra (partitioned by conversation_id + timestamp)
 - Media uploaded to S3 and linked in the message
 - Delivery states (sent/delivered/read) stored in Redis, push notifications via APNs/FCM for offline users
+
+## Video Walkthroughs
+
+- [Gaurav Sen: WhatsApp System Design →](https://www.youtube.com/watch?v=RjQjbJ2UJDg)
+- [System Design Interview: Design WhatsApp (Chat Messaging Systems) →](https://www.youtube.com/watch?v=vvhC64hQZMk)

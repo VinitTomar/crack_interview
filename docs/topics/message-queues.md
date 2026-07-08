@@ -15,8 +15,8 @@ Producer-consumer pattern, Kafka (topics, partitions, consumer groups), SQS, at-
 
 ## Resources
 
-- [Hello Interview Kafka Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/kafka)
-- [Gaurav Sen Messaging Queue video ↗](https://www.youtube.com/watch?v=j9HxM4H9AfA)
+- [Hello Interview: Kafka Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/kafka)
+- [Gaurav Sen: System Design — Messaging Queue ↗](https://www.youtube.com/watch?v=j9HxM4H9AfA)
 
 ## Covered by Problems
 

@@ -33,3 +33,8 @@ Core distributed systems fundamentals — hashing, redirection, and building a r
 - Redirect via 301 (cacheable) or 302 (trackable)
 - Add a CDN layer in front for popular short URLs
 - Rate limit writes per user/IP to prevent abuse
+
+## Video Walkthroughs
+
+- [Gaurav Sen: System Design: URL Shortener -- Introduction →](https://www.youtube.com/watch?v=_ANBR698D7c)
+- [NeetCode: Design a URL Shortener (Bitly) - System Design Interview →](https://www.youtube.com/watch?v=qSJAvd5Mgio)

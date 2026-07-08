@@ -31,3 +31,8 @@ Search index building, relevance ranking, freshness, query parsing at social-net
 - BM25 relevance scoring augmented with personalization signals (friend graph proximity, engagement history)
 - Near-real-time indexing via Elasticsearch's 1-second refresh interval; use a hot index for recent posts and a cold index for historical
 - Query parsing handles hashtags, mentions, phrases, and boolean operators; a ranking model blends text relevance + social signals
+
+## Video Walkthroughs
+
+- [System Design: Design FB Post Search (ex-Meta Interviewer) →](https://www.youtube.com/watch?v=l38XL9914fs)
+- [System Design: Design Facebook Status Search →](https://www.youtube.com/watch?v=KxfYCkZJw8U)

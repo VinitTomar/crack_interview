@@ -15,8 +15,9 @@ REST principles, HTTP verbs (GET/POST/PUT/DELETE), idempotency, pagination strat
 
 ## Resources
 
-- [Hello Interview API Design ↗](https://www.hellointerview.com/learn/system-design/core-concepts/api-design)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: API Design ↗](https://www.hellointerview.com/learn/system-design/core-concepts/api-design)
+- [ByteByteGo: Good APIs Vs Bad APIs — 7 Tips for API Design ↗](https://www.youtube.com/watch?v=_gQaygjm_hg)
+- [Arpit Bhayani: Everything you need to know about REST ↗](https://www.youtube.com/watch?v=uFGJVQvR59A)
 
 ## Covered by Problems
 

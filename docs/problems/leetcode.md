@@ -31,3 +31,8 @@ Code execution sandbox, job queuing, result storage.
 - Submit code to a job queue (Kafka/SQS), workers pull jobs and execute with resource limits (CPU/memory/time)
 - Store results and submission history in a relational DB
 - Return real-time execution status via polling or WebSocket
+
+## Video Walkthroughs
+
+- [System Design Interview: Design LeetCode (Online Judge) w/ Ex-Meta Staff Engineer →](https://www.youtube.com/watch?v=1xHADtekTNg)
+- [Launch Party: System Design Online Judge →](https://www.youtube.com/watch?v=mwcadRR3nsk)

@@ -15,8 +15,7 @@ Embeddings and semantic search, Approximate Nearest Neighbor (ANN) search algori
 
 ## Resources
 
-- [Hello Interview Vector Databases ↗](https://www.hellointerview.com/learn/system-design/deep-dives/vector-databases)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Vector Databases ↗](https://www.hellointerview.com/learn/system-design/deep-dives/vector-databases)
 
 ## Covered by Problems
 

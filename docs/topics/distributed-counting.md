@@ -15,8 +15,9 @@ Count-Min Sketch for approximate counting, lossy counting, Space-Saving algorith
 
 ## Resources
 
-- [Hello Interview Data Structures for Big Data ↗](https://www.hellointerview.com/learn/system-design/deep-dives/data-structures-for-big-data)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Data Structures for Big Data ↗](https://www.hellointerview.com/learn/system-design/deep-dives/data-structures-for-big-data)
+- [Gaurav Sen: Top-K Problem (Heavy Hitters) ↗](https://www.youtube.com/watch?v=xhwpxcPPlGA)
+- [System Design Interview: Top K Heavy Hitters ↗](https://www.youtube.com/watch?v=kx-XDoPjoHw)
 
 ## Covered by Problems
 

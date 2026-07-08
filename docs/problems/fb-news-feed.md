@@ -32,3 +32,8 @@ Feed ranking, fan-out at scale, read-heavy optimization.
 - Fan-out-on-read for celebrities
 - Rank feed by a score (recency + engagement)
 - Serve cached feeds from Redis for active users
+
+## Video Walkthroughs
+
+- [Design Scalable News Feed System (Instagram / Facebook / Twitter) →](https://www.youtube.com/watch?v=Ox-aXX2qekU)
+- [System Design Interview: Design Facebook News Feed →](https://www.youtube.com/watch?v=H_m7XibyQmE)

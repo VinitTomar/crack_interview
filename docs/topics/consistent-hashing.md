@@ -15,8 +15,9 @@ Hash ring concept, virtual nodes, how it minimizes data redistribution when node
 
 ## Resources
 
-- [Hello Interview Consistent Hashing ↗](https://www.hellointerview.com/learn/system-design/core-concepts/consistent-hashing)
-- [Gaurav Sen video ↗](https://www.youtube.com/watch?v=zaRkONvyGr8)
+- [Hello Interview: Consistent Hashing ↗](https://www.hellointerview.com/learn/system-design/core-concepts/consistent-hashing)
+- [Gaurav Sen: What is Consistent Hashing? ↗](https://www.youtube.com/watch?v=zaRkONvyGr8)
+- [ByteByteGo: Consistent Hashing | Algorithms You Should Know ↗](https://www.youtube.com/watch?v=UF9Iqmg94tk)
 
 ## Covered by Problems
 

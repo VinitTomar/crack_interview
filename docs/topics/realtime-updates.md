@@ -15,8 +15,9 @@ WebSockets for full-duplex persistent connections, SSE for server-to-client stre
 
 ## Resources
 
-- [Hello Interview Real-time Updates Pattern ↗](https://www.hellointerview.com/learn/system-design/patterns/realtime-updates)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Real-time Updates Pattern ↗](https://www.hellointerview.com/learn/system-design/patterns/realtime-updates)
+- [Hussein Nasser: WebSockets vs SSE vs Long-Polling ↗](https://www.youtube.com/watch?v=jwmVVEMxw50)
+- [Ex-Google SWE: Long Polling vs WebSockets vs SSE ↗](https://www.youtube.com/watch?v=fIwOd4PToAY)
 
 ## Covered by Problems
 

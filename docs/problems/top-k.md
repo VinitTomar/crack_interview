@@ -25,6 +25,11 @@ Approximate counting at massive scale, heavy hitters algorithm, two-stage aggreg
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/top-k)
 
+## Video Walkthroughs
+
+- [ByteByteGo: Top-K Problem (Heavy Hitters) System Design →](https://www.youtube.com/watch?v=xhwpxcPPlGA)
+- [System Design Interview: Design Top-K YouTube Videos →](https://www.youtube.com/watch?v=1lfktgZ9Eeo)
+
 ## Approach Hints
 
 - Two-stage architecture: local Count-Min Sketch per ingest shard counts events; merge local top-K lists into a global top-K every few seconds

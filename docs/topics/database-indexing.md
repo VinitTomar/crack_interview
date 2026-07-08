@@ -15,8 +15,9 @@ B-tree indexes for range queries, hash indexes for exact lookups, composite inde
 
 ## Resources
 
-- [Hello Interview DB Indexing ↗](https://www.hellointerview.com/learn/system-design/core-concepts/db-indexing)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Database Indexing ↗](https://www.hellointerview.com/learn/system-design/core-concepts/db-indexing)
+- [Hussein Nasser: Database Indexing Explained ↗](https://www.youtube.com/watch?v=-qNSXK7s7_w)
+- [ByteByteGo: DB Indexing for System Design ↗](https://www.youtube.com/watch?v=BHCSL_ZifI0)
 
 ## Covered by Problems
 

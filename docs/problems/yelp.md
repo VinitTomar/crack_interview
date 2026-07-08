@@ -32,3 +32,8 @@ Geo search, read-heavy systems, search indexing.
 - Use Elasticsearch for full-text search + geo_distance query
 - Cache top-rated businesses per city in Redis
 - Paginate results with cursor-based pagination
+
+## Video Walkthroughs
+
+- [Yelp System Design | Amazon Interview Question →](https://www.youtube.com/watch?v=TCP5iPy8xqo)
+- [FAANG System Design Interview: Design A Location Based Service (Yelp, Google Places) →](https://www.youtube.com/watch?v=M4lR_Va97cQ)

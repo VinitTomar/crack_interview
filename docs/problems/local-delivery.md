@@ -31,3 +31,8 @@ Geo-matching, assignment, routing basics.
 - Assign orders using a priority queue (proximity + load)
 - Track courier location updates via periodic polling or WebSocket
 - Store order state machine in a relational DB
+
+## Video Walkthroughs
+
+- [System Design of Doordash: Geo-Hashing and WebSockets for Location Based Services →](https://www.youtube.com/watch?v=iRhSAR3ldTw)
+- [Design Uber Eats | System Design Interview (with Senior Netflix Engineer, Ex-Microsoft) →](https://www.youtube.com/watch?v=dgawYAH0pO4)

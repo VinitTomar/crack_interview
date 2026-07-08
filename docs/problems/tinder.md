@@ -31,3 +31,8 @@ Profile matching, geolocation filtering, swipe mechanics.
 - Pre-cache a deck of profiles for each user
 - Record swipes in a KV store, match notification via WebSocket or push
 - Filter already-seen profiles with a bloom filter
+
+## Video Walkthroughs
+
+- [System Design Interview: Design Tinder (Ex-Meta Staff Engineer) →](https://www.youtube.com/watch?v=18Fg5Akhkqw)
+- [Tinder System Design | Design Online Dating Application →](https://www.youtube.com/watch?v=pqx3QfBQHaQ)

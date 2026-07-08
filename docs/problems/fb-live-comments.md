@@ -26,6 +26,11 @@ High-throughput real-time fan-out, comment ordering, scaling WebSocket connectio
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/fb-live-comments)
 
+## Video Walkthroughs
+
+- [Hello Interview: Design FB Live Comments →](https://www.youtube.com/watch?v=tgSe27eoBG0)
+- [Hello Interview: Design Live Comments System →](https://www.youtube.com/watch?v=LjLx0fCd1k8)
+
 ## Approach Hints
 
 - Publish comments to Kafka (partitioned by stream_id)

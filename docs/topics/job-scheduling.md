@@ -15,8 +15,9 @@ Cron-based scheduling, distributed job queues (Celery, Sidekiq), idempotent job 
 
 ## Resources
 
-- [Hello Interview Long Running Tasks ↗](https://www.hellointerview.com/learn/system-design/patterns/long-running-tasks)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Long Running Tasks ↗](https://www.hellointerview.com/learn/system-design/patterns/long-running-tasks)
+- [System Design Interview: Job Scheduler with FAANG Engineer ↗](https://www.youtube.com/watch?v=Bt6mVg5ivyQ)
+- [Distributed Job Scheduler — System Design on Whiteboard ↗](https://www.youtube.com/watch?v=cTMomjk1iRc)
 
 ## Covered by Problems
 

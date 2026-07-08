@@ -6,6 +6,9 @@ const DIFF_CLASS = {
   Easy: styles.diffEasy,
   Medium: styles.diffMedium,
   Hard: styles.diffHard,
+  Fundamentals: styles.diffFundamentals,
+  Patterns: styles.diffPatterns,
+  Problems: styles.diffProblems,
 };
 
 export default function TopicCard({ topic, difficulty, levelColor, checked, onToggle }) {
@@ -68,23 +71,29 @@ export default function TopicCard({ topic, difficulty, levelColor, checked, onTo
               ))}
             </ul>
 
-            <p className={styles.sectionLabel}>Covered by problems</p>
-            <div className={styles.problemList}>
-              {topic.coveredBy.map(p => (
-                <a
-                  key={p.url}
-                  href={p.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.problemChip}
-                >
-                  <span className={`${styles.diffBadge} ${DIFF_CLASS[p.difficulty]}`}>
-                    {p.difficulty}
-                  </span>
-                  {p.name}
-                </a>
-              ))}
-            </div>
+            {topic.coveredBy && topic.coveredBy.length > 0 && (
+              <>
+                <p className={styles.sectionLabel}>Covered by problems</p>
+                <div className={styles.problemList}>
+                  {topic.coveredBy.map(p => {
+                    const badge = (
+                      <span className={`${styles.diffBadge} ${DIFF_CLASS[p.difficulty] || styles.diffDefault}`}>
+                        {p.difficulty}
+                      </span>
+                    );
+                    return p.url.startsWith('/') ? (
+                      <Link key={p.url} to={p.url} className={styles.problemChip}>
+                        {badge}{p.name}
+                      </Link>
+                    ) : (
+                      <a key={p.url} href={p.url} target="_blank" rel="noopener noreferrer" className={styles.problemChip}>
+                        {badge}{p.name}
+                      </a>
+                    );
+                  })}
+                </div>
+              </>
+            )}
 
             <Link to={topic.docsPath} className={styles.docsLink}>
               📄 Read full notes →

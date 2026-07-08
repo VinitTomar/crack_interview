@@ -15,8 +15,9 @@ Single-table design, partition key + sort key modeling, Global Secondary Indexes
 
 ## Resources
 
-- [Hello Interview DynamoDB Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/dynamodb)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: DynamoDB Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/dynamodb)
+- [ByteByteGo: How Key-Value Stores Work (Redis, DynamoDB) ↗](https://www.youtube.com/watch?v=Dwt8R0KPu7k)
+- [Hussein Nasser: Designing a Highly Available KV Store — The Dynamo Paper ↗](https://www.youtube.com/watch?v=wbZZftuLs4o)
 
 ## Covered by Problems
 

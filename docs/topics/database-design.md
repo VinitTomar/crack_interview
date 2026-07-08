@@ -15,8 +15,9 @@ When to use relational (ACID, joins, strong consistency) vs NoSQL (flexible sche
 
 ## Resources
 
-- [Hello Interview Data Modeling ↗](https://www.hellointerview.com/learn/system-design/core-concepts/data-modeling)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Data Modeling ↗](https://www.hellointerview.com/learn/system-design/core-concepts/data-modeling)
+- [ByteByteGo: SQL vs NoSQL is the WRONG Question ↗](https://www.youtube.com/watch?v=tIvCjH2ETzo)
+- [Gaurav Sen: SQL vs NoSQL — Tradeoffs ↗](https://www.youtube.com/watch?v=QzLhb1WBFjQ)
 
 ## Covered by Problems
 

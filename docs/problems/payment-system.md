@@ -33,3 +33,8 @@ Financial consistency, idempotency, reconciliation, audit trail, compliance.
 - Double-entry accounting: every transaction creates both a debit and a credit entry; balances are always derived from the ledger, never stored directly
 - Use Saga orchestration to coordinate across payment processor, ledger service, and notification service — each step has a compensating action for rollback
 - Append-only ledger table for complete audit trail; nightly reconciliation job compares ledger totals against payment processor reports to catch discrepancies
+
+## Video Walkthroughs
+
+- [System Design: Design a Payment System →](https://www.youtube.com/watch?v=olfaBgJrUBI)
+- [System Design: Design a Payment System Like a Senior Engineer →](https://www.youtube.com/watch?v=Mqalc-nRMB0)

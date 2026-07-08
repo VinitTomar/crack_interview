@@ -15,8 +15,9 @@ Token bucket, leaky bucket, and sliding window algorithms; distributed rate limi
 
 ## Resources
 
-- [Hello Interview Rate Limiter Breakdown ↗](https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-rate-limiter)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Rate Limiter Breakdown ↗](https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-rate-limiter)
+- [ByteByteGo: Rate Limiting Fundamentals ↗](https://www.youtube.com/watch?v=5u8hDdB3mRY)
+- [Gaurav Sen: Token Bucket, Leaky Bucket, Sliding Logs ↗](https://www.youtube.com/watch?v=mhUQe4BKZXs)
 
 ## Covered by Problems
 

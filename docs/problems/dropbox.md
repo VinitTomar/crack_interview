@@ -31,3 +31,8 @@ Blob storage, chunked uploads, client sync protocol, conflict resolution.
 - Use delta sync to only upload changed chunks
 - Detect conflicts using vector clocks or last-write-wins
 - Serve downloads via CDN-backed pre-signed S3 URLs for low latency
+
+## Video Walkthroughs
+
+- [ByteByteGo: Google Drive System Design | Dropbox System Design | File Sharing Service System Design →](https://www.youtube.com/watch?v=3RHjRXWAUvg)
+- [System Design: Dropbox (5+ Approaches) →](https://www.youtube.com/watch?v=b1xqGj-SYB0)

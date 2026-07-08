@@ -25,6 +25,11 @@ Distributed cron, fault tolerance, exactly-once execution.
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler)
 
+## Video Walkthroughs
+
+- [Hello Interview: Distributed Job Scheduler →](https://www.youtube.com/watch?v=pzDwYHRzEnk)
+- [Hello Interview: Job Scheduler System Design →](https://www.youtube.com/watch?v=Bt6mVg5ivyQ)
+
 ## Approach Hints
 
 - Poll a jobs table for due jobs (next_run_at)

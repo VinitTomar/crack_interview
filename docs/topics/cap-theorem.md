@@ -15,8 +15,8 @@ CAP theorem tradeoffs (Consistency, Availability, Partition Tolerance), strong c
 
 ## Resources
 
-- [Hello Interview CAP Theorem ↗](https://www.hellointerview.com/learn/system-design/core-concepts/cap-theorem)
-- [Gaurav Sen Data Consistency video ↗](https://www.youtube.com/watch?v=m4q7VkgDWrM)
+- [Hello Interview: CAP Theorem ↗](https://www.hellointerview.com/learn/system-design/core-concepts/cap-theorem)
+- [Gaurav Sen: Data Consistency and Tradeoffs ↗](https://www.youtube.com/watch?v=m4q7VkgDWrM)
 
 ## Covered by Problems
 

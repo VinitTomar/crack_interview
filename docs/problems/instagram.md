@@ -32,3 +32,8 @@ Media storage, CDN, social graph, feed delivery at scale.
 - Shard user and media tables by user_id
 - Use fan-out-on-write for feed (pre-build follower feeds)
 - Use fan-out-on-read for celebrity accounts to avoid write amplification
+
+## Video Walkthroughs
+
+- [Instagram System Design | Meta | Facebook →](https://www.youtube.com/watch?v=YoS5cp0cirM)
+- [Instagram System Design | Design Photo-Sharing Application | System Design Interview →](https://www.youtube.com/watch?v=da7mdMz0g0g)

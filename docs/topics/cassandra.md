@@ -15,8 +15,9 @@ Partition key selection for even distribution, clustering keys for ordering, tun
 
 ## Resources
 
-- [Hello Interview Cassandra Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/cassandra)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Cassandra Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/cassandra)
+- [ByteByteGo: Wide Column NoSQL Database Deep Dive ↗](https://www.youtube.com/watch?v=1n2YYyuLO4g)
+- [Gaurav Sen: What is Cassandra? ↗](https://www.youtube.com/watch?v=y9wgnS-5Qxg)
 
 ## Covered by Problems
 

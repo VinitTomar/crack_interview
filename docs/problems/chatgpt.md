@@ -33,3 +33,8 @@ LLM inference infrastructure, token streaming, context management, cost and rate
 - Stream tokens back to the client as they're generated using Server-Sent Events (SSE); handle client disconnects gracefully
 - Store conversation history in a KV store (Redis/DynamoDB); truncate to model context window using a sliding window or summary compression
 - Semantic cache: hash or embed the prompt and look up similar past queries to serve cached responses for near-duplicate questions
+
+## Video Walkthroughs
+
+- [System Design: Design ChatGPT (ML/AI Engineer Interview) →](https://www.youtube.com/watch?v=xj5Nf0-S4_0)
+- [System Design: Design ChatGPT Mock Interview (eBay EM) →](https://www.youtube.com/watch?v=I9-PUPYZyiw)

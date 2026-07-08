@@ -1,27 +1,22 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { LEVELS, TOTAL_TOPICS, DIFFICULTY_COUNT } from '../../data/roadmap';
 import TopicCard from './TopicCard';
 import styles from './styles.module.css';
 
-const STORAGE_KEY = 'sd-roadmap-progress';
-
-function loadProgress() {
+function loadProgress(key) {
   if (typeof window === 'undefined') return {};
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    return JSON.parse(localStorage.getItem(key) || '{}');
   } catch {
     return {};
   }
 }
 
-function saveProgress(progress) {
+function saveProgress(key, progress) {
   if (typeof window === 'undefined') return;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+  localStorage.setItem(key, JSON.stringify(progress));
 }
 
-const FILTERS = ['All', 'Easy', 'Medium', 'Hard'];
-
-export default function Roadmap() {
+export default function Roadmap({ levels, totalTopics, storageKey, title, subtitle }) {
   const [progress, setProgress] = useState({});
   const [search, setSearch] = useState('');
   const [activeFilter, setActiveFilter] = useState('All');
@@ -29,13 +24,13 @@ export default function Roadmap() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    setProgress(loadProgress());
+    setProgress(loadProgress(storageKey));
     setHydrated(true);
-  }, []);
+  }, [storageKey]);
 
   useEffect(() => {
     function onScroll() { setIsScrolled(window.scrollY > 80); }
-    onScroll(); // set correct initial state without waiting for first scroll
+    onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
@@ -43,27 +38,28 @@ export default function Roadmap() {
   function toggleTopic(topicId) {
     setProgress(prev => {
       const next = { ...prev, [topicId]: !prev[topicId] };
-      saveProgress(next);
+      saveProgress(storageKey, next);
       return next;
     });
   }
 
+  const filters = useMemo(() => ['All', ...levels.map(l => l.difficulty)], [levels]);
+
   const doneCount = useMemo(() => Object.values(progress).filter(Boolean).length, [progress]);
-  const pct = TOTAL_TOPICS > 0 ? Math.round((doneCount / TOTAL_TOPICS) * 100) : 0;
+  const pct = totalTopics > 0 ? Math.round((doneCount / totalTopics) * 100) : 0;
 
   const doneByDifficulty = useMemo(() => {
-    const counts = { Easy: 0, Medium: 0, Hard: 0 };
-    LEVELS.forEach(level => {
-      level.topics.forEach(t => {
-        if (progress[t.id]) counts[level.difficulty]++;
-      });
-    });
+    const counts = {};
+    levels.forEach(l => { counts[l.difficulty] = 0; });
+    levels.forEach(l => l.topics.forEach(t => {
+      if (progress[t.id]) counts[l.difficulty]++;
+    }));
     return counts;
-  }, [progress]);
+  }, [progress, levels]);
 
   const filteredLevels = useMemo(() => {
     const q = search.toLowerCase().trim();
-    return LEVELS
+    return levels
       .filter(level => activeFilter === 'All' || level.difficulty === activeFilter)
       .map(level => ({
         ...level,
@@ -72,23 +68,22 @@ export default function Roadmap() {
         ),
       }))
       .filter(level => level.topics.length > 0);
-  }, [search, activeFilter]);
+  }, [search, activeFilter, levels]);
 
   const totalVisible = filteredLevels.reduce((s, l) => s + l.topics.length, 0);
 
   return (
     <div className={styles.roadmapPage}>
       <div className={styles.hero}>
-        <h1>System Design Roadmap</h1>
-        <p>35 topics · 30 interview problems · Beginner to Advanced</p>
+        <h1>{title}</h1>
+        <p>{subtitle}</p>
       </div>
 
       <div className={`${styles.controls} ${isScrolled ? styles.controlsCompact : ''}`}>
-        {/* Progress bar */}
         <div className={styles.progressSection}>
           <div className={`${styles.progressHeader} ${isScrolled ? styles.progressHidden : ''}`}>
             <span>Progress</span>
-            <span>{hydrated ? doneCount : 0} / {TOTAL_TOPICS} completed ({hydrated ? pct : 0}%)</span>
+            <span>{hydrated ? doneCount : 0} / {totalTopics} completed ({hydrated ? pct : 0}%)</span>
           </div>
           <div className={styles.progressBarRow}>
             <div className={styles.progressBarTrack}>
@@ -99,22 +94,22 @@ export default function Roadmap() {
             </div>
             {isScrolled && (
               <span className={styles.progressCompactLabel}>
-                {hydrated ? doneCount : 0}/{TOTAL_TOPICS}
+                {hydrated ? doneCount : 0}/{totalTopics}
               </span>
             )}
           </div>
           {hydrated && (
             <div className={`${styles.progressBreakdown} ${isScrolled ? styles.progressHidden : ''}`}>
-              <span>Easy {doneByDifficulty.Easy}/{DIFFICULTY_COUNT.Easy}</span>
-              <span>·</span>
-              <span>Medium {doneByDifficulty.Medium}/{DIFFICULTY_COUNT.Medium}</span>
-              <span>·</span>
-              <span>Hard {doneByDifficulty.Hard}/{DIFFICULTY_COUNT.Hard}</span>
+              {levels.map((l, i) => (
+                <React.Fragment key={l.id}>
+                  {i > 0 && <span>·</span>}
+                  <span>{l.difficulty} {doneByDifficulty[l.difficulty]}/{l.topics.length}</span>
+                </React.Fragment>
+              ))}
             </div>
           )}
         </div>
 
-        {/* Search + filter */}
         <div className={styles.searchFilterRow}>
           <input
             type="text"
@@ -124,7 +119,7 @@ export default function Roadmap() {
             className={styles.searchInput}
           />
           <div className={styles.filterTabs}>
-            {FILTERS.map(f => (
+            {filters.map(f => (
               <button
                 key={f}
                 onClick={() => setActiveFilter(f)}
@@ -137,7 +132,6 @@ export default function Roadmap() {
         </div>
       </div>
 
-      {/* Topic levels */}
       {totalVisible === 0 ? (
         <div className={styles.emptyState}>No topics match your search.</div>
       ) : (

@@ -24,6 +24,11 @@ Algorithmic rate limiting, distributed enforcement, Redis patterns.
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-rate-limiter)
 
+## Video Walkthroughs
+
+- [ByteByteGo: Rate Limiting Fundamentals →](https://www.youtube.com/watch?v=5u8hDdB3mRY)
+- [Gaurav Sen: Rate Limiting System Design →](https://www.youtube.com/watch?v=mhUQe4BKZXs)
+
 ## Approach Hints
 
 - Sliding window counter using Redis INCR + EXPIRE

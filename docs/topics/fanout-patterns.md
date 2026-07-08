@@ -15,8 +15,9 @@ Fan-out-on-write (push model — pre-populate each follower's feed) vs fan-out-o
 
 ## Resources
 
-- [Hello Interview Scaling Writes ↗](https://www.hellointerview.com/learn/system-design/patterns/scaling-writes)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Scaling Writes ↗](https://www.hellointerview.com/learn/system-design/patterns/scaling-writes)
+- [Gaurav Sen: Designing Instagram — News Feed System Design ↗](https://www.youtube.com/watch?v=QmX2NPkJTKg)
+- [System Design Interview: How Social Media News Feeds Work ↗](https://www.youtube.com/watch?v=KwgI-VJEr3E)
 
 ## Covered by Problems
 

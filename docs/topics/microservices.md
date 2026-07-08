@@ -15,8 +15,9 @@ Service decomposition principles, inter-service communication (REST vs gRPC), se
 
 ## Resources
 
-- [Hello Interview API Gateway Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/api-gateway)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: API Gateway Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/api-gateway)
+- [ByteByteGo: What Are Microservices Really All About? ↗](https://www.youtube.com/watch?v=lTAcCNbJ7KE)
+- [Gaurav Sen: Monolithic vs MicroServices Architecture ↗](https://www.youtube.com/watch?v=srXdCa89H04)
 
 ## Covered by Problems
 

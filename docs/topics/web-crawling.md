@@ -15,8 +15,9 @@ URL frontier (priority queue + politeness delays), distributed fetch workers, de
 
 ## Resources
 
-- [Hello Interview Web Crawler Breakdown ↗](https://www.hellointerview.com/learn/system-design/problem-breakdowns/web-crawler)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Web Crawler Breakdown ↗](https://www.hellointerview.com/learn/system-design/problem-breakdowns/web-crawler)
+- [System Design Interview: Web Crawler — URL Frontier, Robots.txt, Deduplication ↗](https://www.youtube.com/watch?v=Ouf3J9or72Q)
+- [ByteByteGo: How Search Really Works (Crawling, Indexing, Ranking) ↗](https://www.youtube.com/watch?v=TByRaraQqW4)
 
 ## Covered by Problems
 

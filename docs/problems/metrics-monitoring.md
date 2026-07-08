@@ -32,3 +32,8 @@ Metric ingestion at scale, time-series storage, alerting, and query efficiency.
 - Pre-aggregate at multiple granularities (1-min, 1-hour, 1-day) and apply retention policies (raw data: 7 days, hourly: 3 months, daily: 2 years)
 - Alert rules evaluated continuously against rolling windows; alert pipeline deduplicates and groups related alerts to prevent alert storms
 - Query engine uses columnar storage and time-range partitioning for scan efficiency; cache frequently accessed dashboards in Redis
+
+## Video Walkthroughs
+
+- [ByteByteGo: Metrics Monitoring & Alerting System Design →](https://www.youtube.com/watch?v=IhAOYvWknmg)
+- [System Design: Metrics Monitoring and Alerting System →](https://www.youtube.com/watch?v=6VXMNWvKQCw)

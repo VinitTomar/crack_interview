@@ -15,8 +15,9 @@ How CDNs cache and serve static assets from edge nodes, cache-control headers, o
 
 ## Resources
 
-- [Hello Interview Networking Essentials ↗](https://www.hellointerview.com/learn/system-design/core-concepts/networking-essentials)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Networking Essentials ↗](https://www.hellointerview.com/learn/system-design/core-concepts/networking-essentials)
+- [ByteByteGo: What Is A CDN? How Does It Work? ↗](https://www.youtube.com/watch?v=RI9np1LWzqw)
+- [InterviewPen: How a CDN Works ↗](https://www.youtube.com/watch?v=5mYSQvflpKA)
 
 ## Covered by Problems
 

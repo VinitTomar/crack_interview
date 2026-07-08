@@ -31,3 +31,8 @@ Real-time game state synchronization, matchmaking, session affinity, distributed
 - Game state stored in Redis (fast reads and writes for active games) and persisted to PostgreSQL after each move for durability
 - Matchmaking service pairs players by ELO rating using a priority queue; tolerance expands over time if no match found
 - A distributed lock prevents race conditions when both players submit moves simultaneously; server validates move legality before broadcasting to both clients
+
+## Video Walkthroughs
+
+- [System Design: Design Online Chess (Meta & OpenAI Interview Question) →](https://www.youtube.com/watch?v=A7ISCoZab2I)
+- [System Design: Online Chess Game →](https://www.youtube.com/watch?v=_2My3vZTIAk)

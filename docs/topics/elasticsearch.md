@@ -15,8 +15,9 @@ Inverted index construction, full-text search (tokenization, stemming, relevance
 
 ## Resources
 
-- [Hello Interview Elasticsearch Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/elasticsearch)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Elasticsearch Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/elasticsearch)
+- [Arpit Bhayani: Inverted Index — Data Structure Behind Search Engines ↗](https://www.youtube.com/watch?v=iHHqnyThrqE)
+- [ByteByteGo: Elasticsearch Design Deep Dive ↗](https://www.youtube.com/watch?v=eUvwRAxmEgY)
 
 ## Covered by Problems
 

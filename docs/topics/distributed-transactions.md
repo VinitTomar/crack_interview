@@ -15,8 +15,9 @@ Two-phase commit (2PC) and its limitations, Saga pattern (choreography vs orches
 
 ## Resources
 
-- [Hello Interview Multi-step Processes ↗](https://www.hellointerview.com/learn/system-design/patterns/multi-step-processes)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Multi-step Processes ↗](https://www.hellointerview.com/learn/system-design/patterns/multi-step-processes)
+- [ByteByteGo: Distributed Transactions — 2 Phase Commit vs Saga Pattern ↗](https://www.youtube.com/watch?v=DOFflggE_0Q)
+- [Arpit Bhayani: Two-Phase Commit in Distributed Transactions ↗](https://www.youtube.com/watch?v=oMhESvU87jM)
 
 ## Covered by Problems
 

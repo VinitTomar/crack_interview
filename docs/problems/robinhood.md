@@ -25,6 +25,11 @@ Low-latency data delivery, order execution, financial system consistency.
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/robinhood)
 
+## Video Walkthroughs
+
+- [System Design Interview: Design Robinhood (Ex-Google SWE) →](https://www.youtube.com/watch?v=Zvr-ffhvw0Y)
+- [Design Robinhood: System Design Interview (Senior FAANG Engineer) →](https://www.youtube.com/watch?v=q3H4pHuMBBM)
+
 ## Approach Hints
 
 - Stream real-time market data via WebSocket (Kafka → WebSocket servers)

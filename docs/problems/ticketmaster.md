@@ -31,3 +31,8 @@ Inventory management, concurrent seat reservation, preventing double-booking und
 - Temporarily reserve seats in Redis with a TTL
 - Finalize payment before confirming reservation
 - Use a queue for high-demand events to serialize requests
+
+## Video Walkthroughs
+
+- [System Design Interview: Design Ticketmaster (Ex-Meta Staff Engineer) →](https://www.youtube.com/watch?v=fhdPyoO6aXI)
+- [Design Ticketmaster — System Design Interview (Senior Amazon TPM) →](https://www.youtube.com/watch?v=dUSVIAGxlUw)

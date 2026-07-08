@@ -15,8 +15,9 @@ Horizontal partitioning strategies — hash-based vs range-based sharding, choos
 
 ## Resources
 
-- [Hello Interview Sharding ↗](https://www.hellointerview.com/learn/system-design/core-concepts/sharding)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Sharding ↗](https://www.hellointerview.com/learn/system-design/core-concepts/sharding)
+- [ByteByteGo: Database Sharding and Partitioning ↗](https://www.youtube.com/watch?v=be6PLMKKSto)
+- [Gaurav Sen: What is Database Sharding? ↗](https://www.youtube.com/watch?v=5faMjKuB9bc)
 
 ## Covered by Problems
 

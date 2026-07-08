@@ -28,6 +28,11 @@ Video ingestion pipeline, transcoding, adaptive streaming, content delivery.
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/youtube)
 
+## Video Walkthroughs
+
+- [NeetCode: Design Youtube →](https://www.youtube.com/watch?v=jPKTo1iGQiE)
+- [ByteByteGo: How Video Streaming Works →](https://www.youtube.com/watch?v=kCAXpAikMVc)
+
 ## Approach Hints
 
 - Upload raw video to S3, publish to a Kafka topic to trigger transcoding workers

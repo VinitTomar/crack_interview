@@ -15,8 +15,9 @@ Leader-follower (master-slave) replication, read replicas for scaling reads, syn
 
 ## Resources
 
-- [Hello Interview Scaling Reads ↗](https://www.hellointerview.com/learn/system-design/patterns/scaling-reads)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Scaling Reads ↗](https://www.hellointerview.com/learn/system-design/patterns/scaling-reads)
+- [ByteByteGo: Database Replication Explained ↗](https://www.youtube.com/watch?v=WG6b74VSOOU)
+- [Hussein Nasser: Database Replication Crash Course ↗](https://www.youtube.com/watch?v=9aFu7APZQmY)
 
 ## Covered by Problems
 

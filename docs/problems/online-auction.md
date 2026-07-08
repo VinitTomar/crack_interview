@@ -25,6 +25,11 @@ Real-time bidding, concurrency control, fairness, consistency.
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/online-auction)
 
+## Video Walkthroughs
+
+- [Hello Interview: Online Auction & Bidding Service →](https://www.youtube.com/watch?v=g8XqFuDkga0)
+- [Hello Interview: Online Auction — Meta Interview (5+ Approaches) →](https://www.youtube.com/watch?v=m626ixog2d8)
+
 ## Approach Hints
 
 - Use optimistic locking on the current bid price (compare-and-swap)

@@ -34,3 +34,8 @@ Distributed systems fundamentals — consistent hashing, replication, eviction.
 - Replicate each key to N nodes for fault tolerance
 - Implement LRU eviction per node with a max memory limit
 - Leader election (via ZooKeeper) for cache partition ownership; write-through vs write-around caching policies
+
+## Video Walkthroughs
+
+- [ByteByteGo: Distributed Caching for System Design Interviews →](https://www.youtube.com/watch?v=Gdfj-544AkA)
+- [Gaurav Sen: Redis system design | Distributed Cache System Design →](https://www.youtube.com/watch?v=DUbEgNw-F9c)

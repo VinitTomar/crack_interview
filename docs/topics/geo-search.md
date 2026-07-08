@@ -15,8 +15,9 @@ Geohashing (encoding lat/lng into a string prefix), quadtrees for dynamic data, 
 
 ## Resources
 
-- [Hello Interview Proximity Search Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/proximity-search)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Proximity Search Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/proximity-search)
+- [ByteByteGo: Design A Location Based Service ↗](https://www.youtube.com/watch?v=M4lR_Va97cQ)
+- [Gaurav Sen: Geohashing Algorithm — Proximity Search ↗](https://www.youtube.com/watch?v=6uhSpLjGLgo)
 
 ## Covered by Problems
 

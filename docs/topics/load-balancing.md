@@ -15,8 +15,9 @@ Layer 4 (transport) vs Layer 7 (application) load balancers, routing algorithms 
 
 ## Resources
 
-- [Hello Interview Networking Essentials ↗](https://www.hellointerview.com/learn/system-design/core-concepts/networking-essentials)
-- [Gaurav Sen Load Balancers video ↗](https://www.youtube.com/watch?v=vge7qwCR1dA)
+- [Hello Interview: Networking Essentials ↗](https://www.hellointerview.com/learn/system-design/core-concepts/networking-essentials)
+- [Gaurav Sen: System Design — Load Balancers ↗](https://www.youtube.com/watch?v=vge7qwCR1dA)
+- [ByteByteGo: Top 6 Load Balancing Algorithms ↗](https://www.youtube.com/watch?v=dBmxNsS3BGE)
 
 ## Covered by Problems
 

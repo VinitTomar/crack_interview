@@ -15,8 +15,9 @@ Leader election, distributed configuration management, service registry, ephemer
 
 ## Resources
 
-- [Hello Interview ZooKeeper Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/zookeeper)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: ZooKeeper Deep Dive ↗](https://www.hellointerview.com/learn/system-design/deep-dives/zookeeper)
+- [Gaurav Sen: Introduction to Apache ZooKeeper ↗](https://www.youtube.com/watch?v=gXJMiDaLIP8)
+- [Arpit Bhayani: GitHub Outage — How Databases Are Managed in Production ↗](https://www.youtube.com/watch?v=4mVJQJbw6Vw)
 
 ## Covered by Problems
 

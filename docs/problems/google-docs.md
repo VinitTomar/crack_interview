@@ -24,6 +24,11 @@ Conflict-free collaborative editing, cursor sync, version history, convergence g
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/google-docs)
 
+## Video Walkthroughs
+
+- [Design Google Docs — System Design Interview →](https://www.youtube.com/watch?v=9JKBlkwg0yM)
+- [Google Docs System Design: Collaborative Editor & Operational Transformation →](https://www.youtube.com/watch?v=YiZh9Gj75HI)
+
 ## Approach Hints
 
 - Use Operational Transformation (OT) — each client sends operations; the server transforms concurrent ops before applying and broadcasting

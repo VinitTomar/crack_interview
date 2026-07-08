@@ -15,8 +15,9 @@ S3-style object storage for unstructured data (images, videos, files), chunked u
 
 ## Resources
 
-- [Hello Interview Large Blobs Pattern ↗](https://www.hellointerview.com/learn/system-design/patterns/large-blobs)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Handling Large Blobs ↗](https://www.hellointerview.com/learn/system-design/patterns/large-blobs)
+- [ByteByteGo: S3-like Object Storage System Design ↗](https://www.youtube.com/watch?v=VovP--wV-vc)
+- [System Design: Object Storage (BLOBs) Explained ↗](https://www.youtube.com/watch?v=dEcQK4-pqiw)
 
 ## Covered by Problems
 

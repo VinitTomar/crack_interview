@@ -27,6 +27,11 @@ Feed crawling, deduplication, topic clustering, feed ranking, and freshness.
 
 [Read the full Hello Interview breakdown →](https://www.hellointerview.com/learn/system-design/problem-breakdowns/google-news)
 
+## Video Walkthroughs
+
+- [15 Minute System Design: News Aggregator →](https://www.youtube.com/watch?v=xRBLqs6Gij4)
+- [Hello Interview: RSS Newsfeed System Design →](https://www.youtube.com/watch?v=hVMGtfaiM9Q)
+
 ## Approach Hints
 
 - Periodic crawl workers fetch RSS/Atom feeds from configured sources; deduplicate articles by URL hash and SimHash for near-duplicates

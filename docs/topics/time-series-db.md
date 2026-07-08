@@ -15,8 +15,9 @@ Append-only write patterns, compression techniques (delta encoding, Gorilla comp
 
 ## Resources
 
-- [Hello Interview Time Series Databases ↗](https://www.hellointerview.com/learn/system-design/deep-dives/time-series-databases)
-- [Gaurav Sen Playlist ↗](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Time Series Databases ↗](https://www.hellointerview.com/learn/system-design/deep-dives/time-series-databases)
+- [Arpit Bhayani: Compression Algorithm Powering Time-Series DBs ↗](https://www.youtube.com/watch?v=J7VJtuRCkuI)
+- [Ex-Google SWE: How Are Time Series Databases SO FAST? ↗](https://www.youtube.com/watch?v=fUpYLwzGtW0)
 
 ## Covered by Problems
 
