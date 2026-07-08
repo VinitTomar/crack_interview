@@ -78,8 +78,15 @@ shapes.forEach(s -> System.out.println(s.area()));
 - **Overloading vs. overriding confusion** — overloading is resolved at compile-time (static dispatch); overriding is resolved at runtime. Calling an overloaded method on a base-class reference will NOT dispatch to the subclass version.
 - **Treating abstraction as "just making things abstract"** — abstraction is about simplifying the caller's mental model, not about using the `abstract` keyword everywhere. A concrete class with a clean public API is perfectly abstract.
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Parking Lot System | [→](/docs/lld/problems/parking-lot) |
+| Vending Machine | [→](/docs/lld/problems/vending-machine) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
+- [Hello Interview: OOD Introduction](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
+- [Refactoring.Guru: OOP Basics](https://refactoring.guru/design-patterns/what-is-pattern)
 - [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)

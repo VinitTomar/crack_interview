@@ -119,8 +119,17 @@ class ConfigManager {
 - **Mutable Builder result** — forgetting to copy the list inside the Builder before assigning to the immutable object; the caller can still mutate the original list reference
 - **Abstract Factory vs Factory Method confusion** — Factory Method creates *one* product type; Abstract Factory creates *a family* of related product types in a coordinated way
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Vending Machine | [→](/docs/lld/problems/vending-machine) |
+| Parking Lot System | [→](/docs/lld/problems/parking-lot) |
+| Library Management System | [→](/docs/lld/problems/library-management) |
+| Hotel Booking System | [→](/docs/lld/problems/hotel-booking) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Refactoring.Guru: Creational Patterns](https://refactoring.guru/design-patterns/creational-patterns)
+- [Hello Interview: Design Patterns](https://www.hellointerview.com/learn/code/object-oriented-design/design-patterns)
+- [Gaurav Sen: Design Patterns](https://www.youtube.com/watch?v=tAuRQs_d9F4)

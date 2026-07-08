@@ -311,17 +311,17 @@
   color: #b91c1c;
 }
 
-.diffFundamentals {
-  background: #dbeafe;
-  color: #1d4ed8;
+.diffFoundational {
+  background: #dcfce7;
+  color: #15803d;
 }
 
-.diffPatterns {
+.diffIntermediate {
   background: #fef3c7;
   color: #b45309;
 }
 
-.diffProblems {
+.diffAdvanced {
   background: #fee2e2;
   color: #b91c1c;
 }

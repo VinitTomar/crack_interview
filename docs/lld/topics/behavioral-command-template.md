@@ -110,8 +110,16 @@ class ProductDataMigration extends DataMigration {
 - **Confusing Command with Strategy**: Both encapsulate behaviour, but Command represents a *specific action with context* (and supports undo). Strategy represents an *interchangeable algorithm* with no history.
 - **Putting too much logic in ConcreteCommand**: The command is a coordinator, not a worker. Business logic belongs in the Receiver (`Order`, `Editor`). ConcreteCommand only bridges the Invoker to the Receiver.
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Vending Machine | [→](/docs/lld/problems/vending-machine) |
+| Elevator System | [→](/docs/lld/problems/elevator-system) |
+| Hotel Booking System | [→](/docs/lld/problems/hotel-booking) |
+| Thread-Safe Rate Limiter | [→](/docs/lld/problems/rate-limiter-lld) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Refactoring.Guru: Command](https://refactoring.guru/design-patterns/command)
+- [Refactoring.Guru: Template Method](https://refactoring.guru/design-patterns/template-method)

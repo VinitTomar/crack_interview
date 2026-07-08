@@ -6,9 +6,9 @@ const DIFF_CLASS = {
   Easy: styles.diffEasy,
   Medium: styles.diffMedium,
   Hard: styles.diffHard,
-  Fundamentals: styles.diffFundamentals,
-  Patterns: styles.diffPatterns,
-  Problems: styles.diffProblems,
+  Foundational: styles.diffFoundational,
+  Intermediate: styles.diffIntermediate,
+  Advanced: styles.diffAdvanced,
 };
 
 export default function TopicCard({ topic, difficulty, levelColor, checked, onToggle }) {

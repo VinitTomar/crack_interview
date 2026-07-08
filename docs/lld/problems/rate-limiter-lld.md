@@ -1,10 +1,10 @@
 ---
-title: Rate Limiter
-sidebar_label: Rate Limiter
+title: Thread-Safe Rate Limiter
+sidebar_label: Thread-Safe Rate Limiter
 tags: [lld, machine-coding]
 ---
 
-# Rate Limiter
+# Thread-Safe Rate Limiter
 
 **Difficulty:** Problems | **Track:** LLD
 
@@ -129,5 +129,5 @@ class RateLimiterFactory {
 
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Grokking OOD](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+- [Hello Interview: Rate Limiter LLD](https://www.hellointerview.com/learn/code/object-oriented-design/rate-limiter)
+- [Gaurav Sen: Rate Limiting](https://www.youtube.com/watch?v=mhUQe4BKZXs)

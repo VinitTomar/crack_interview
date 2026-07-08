@@ -15,7 +15,7 @@ export default function LLD() {
           totalTopics={LLD_TOTAL_TOPICS}
           storageKey="lld-roadmap-progress"
           title="Low Level Design Roadmap"
-          subtitle="24 topics · OOP fundamentals · Design patterns · Machine-coding problems"
+          subtitle="16 topics · Foundational · Intermediate · Advanced"
         />
       </main>
     </Layout>

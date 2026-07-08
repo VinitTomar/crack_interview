@@ -100,8 +100,15 @@ class CachingUserService implements UserService {
 - **Forgetting the shared interface on Proxy**: The proxy must implement the same interface as the real subject — otherwise callers cannot be swapped transparently.
 - **Using Facade when Adapter is needed**: Facade simplifies a *compatible* subsystem. Adapter converts an *incompatible* interface. If the existing interface already fits, you don't need Facade.
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| LRU / LFU Cache | [→](/docs/lld/problems/lru-cache) |
+| Hotel Booking System | [→](/docs/lld/problems/hotel-booking) |
+| Thread-Safe Rate Limiter | [→](/docs/lld/problems/rate-limiter-lld) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Refactoring.Guru: Facade](https://refactoring.guru/design-patterns/facade)
+- [Refactoring.Guru: Proxy](https://refactoring.guru/design-patterns/proxy)

@@ -131,8 +131,14 @@ class UserServiceSpring {
 - **Forgetting that DI enables testing, not just flexibility** — when asked *why* DI, lead with testability. Flexibility of deployment is a secondary benefit.
 - **Over-injecting** — not every collaborator needs to be injected. `new ArrayList<>()` or `new StringBuilder()` inside a method is fine; those are not services with external side effects. Inject services that talk to I/O or hold shared state.
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Ride Sharing System | [→](/docs/lld/problems/ride-sharing) |
+| Thread-Safe Rate Limiter | [→](/docs/lld/problems/rate-limiter-lld) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Gaurav Sen: DI & IoC](https://www.youtube.com/watch?v=EPv9-cHEmQw)
+- [Refactoring.Guru: DI](https://refactoring.guru/design-patterns/catalog)

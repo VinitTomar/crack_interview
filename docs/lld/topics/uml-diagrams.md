@@ -122,8 +122,14 @@ Client        ParkingLot      ParkingFloor     Ticket
 - **Using inheritance where composition fits** — `Car extends Vehicle` is correct; `ParkingLot extends Building` is questionable; prefer composition unless "is-a" is truly permanent
 - **Mixing aggregation and composition** — aggregation (hollow ◇) means the child outlives the parent; composition (filled ◆) means it doesn't; a `Ticket` cannot exist without a `ParkingLot` so use composition
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Parking Lot System | [→](/docs/lld/problems/parking-lot) |
+| Elevator System | [→](/docs/lld/problems/elevator-system) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Class Diagrams](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
+- [Lucidchart: UML Guide](https://www.lucidchart.com/pages/uml-class-diagram)

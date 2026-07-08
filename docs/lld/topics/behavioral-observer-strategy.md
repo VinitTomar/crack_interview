@@ -106,8 +106,16 @@ class OrderPricer {
 - **Hardcoding the algorithm in the context class**: The whole point of Strategy is that the context should *not* know which algorithm runs. If you have `if (strategy == "peak") { ... }` in the context, you've missed the pattern.
 - **Making Strategy stateless when it needs state**: `DiscountPricing` above holds a `discountPct` field. Strategy objects can be stateful — don't strip out constructor parameters to keep things "simple."
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Ride Sharing System | [→](/docs/lld/problems/ride-sharing) |
+| Parking Lot System | [→](/docs/lld/problems/parking-lot) |
+| Library Management System | [→](/docs/lld/problems/library-management) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Refactoring.Guru: Observer](https://refactoring.guru/design-patterns/observer)
+- [Refactoring.Guru: Strategy](https://refactoring.guru/design-patterns/strategy)
+- [Gaurav Sen: Observer Pattern](https://www.youtube.com/watch?v=oNalXg67XEE)

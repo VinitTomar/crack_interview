@@ -175,8 +175,14 @@ class ThreadSafeCache<K, V> {
 - **Holding a lock across I/O** — network calls, database queries, or file reads inside a synchronized block serialize all callers on that I/O latency. Fetch data first, then lock only to update shared state.
 - **Assuming `synchronized` on a method is enough for compound operations** — `if (!map.containsKey(k)) map.put(k, v)` is a check-then-act race even if `containsKey` and `put` are individually synchronized. Use `map.putIfAbsent(k, v)` or lock around the whole compound operation.
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Thread-Safe Rate Limiter | [→](/docs/lld/problems/rate-limiter-lld) |
+| LRU / LFU Cache | [→](/docs/lld/problems/lru-cache) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Gaurav Sen: Concurrency](https://www.youtube.com/watch?v=iKtvNJQoCNw)
+- [Hello Interview: Concurrency](https://www.hellointerview.com/learn/code/object-oriented-design/concurrency)

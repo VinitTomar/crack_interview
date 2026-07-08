@@ -1,10 +1,10 @@
 ---
-title: LRU Cache
-sidebar_label: LRU Cache
+title: LRU / LFU Cache
+sidebar_label: LRU / LFU Cache
 tags: [lld, machine-coding]
 ---
 
-# LRU Cache
+# LRU / LFU Cache
 
 **Difficulty:** Problems | **Track:** LLD
 
@@ -83,5 +83,5 @@ class ThreadSafeLRUCache<K, V> {
 
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Grokking OOD](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+- [Hello Interview: LRU Cache](https://www.hellointerview.com/learn/code/object-oriented-design/lru-cache)
+- [Gaurav Sen: LRU Cache Design](https://www.youtube.com/watch?v=DUbEgNw-F9c)

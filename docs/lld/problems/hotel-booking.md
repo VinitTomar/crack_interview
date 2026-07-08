@@ -109,5 +109,5 @@ class BookingService {   // Facade
 
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Grokking OOD](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+- [Hello Interview: Hotel Management](https://www.hellointerview.com/learn/code/object-oriented-design/hotel-management)
+- [Grokking OOD: Hotel](https://github.com/tssovi/grokking-the-object-oriented-design-interview/blob/master/object-oriented-design-case-studies/design-a-hotel-management-system.md)

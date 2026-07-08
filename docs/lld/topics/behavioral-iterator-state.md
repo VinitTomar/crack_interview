@@ -155,8 +155,14 @@ vm.dispense();       // Insert coin first.  ← machine is back in IdleState
 - **Confusing State with Strategy** — if an interviewer asks "how is State different from Strategy?", the answer is: State manages its own transitions internally; Strategy is selected once by the client and does not change itself.
 - **Not handling illegal transitions** — every state method must do something sensible (print an error or throw) when an action is invalid in the current state, not silently no-op.
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Elevator System | [→](/docs/lld/problems/elevator-system) |
+| Vending Machine | [→](/docs/lld/problems/vending-machine) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Refactoring.Guru: State](https://refactoring.guru/design-patterns/state)
+- [Refactoring.Guru: Iterator](https://refactoring.guru/design-patterns/iterator)

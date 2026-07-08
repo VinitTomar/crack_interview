@@ -116,8 +116,14 @@ UserService service = new CachingUserService(
 - **Forgetting to delegate** — a common bug: writing the logging Decorator but not calling `delegate.getUser(id)`, so the method logs but returns null
 - **Adapter when a simple façade would do** — if you're wrapping an entire subsystem (not adapting one interface to another), a Façade is the right pattern, not Adapter
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Parking Lot System | [→](/docs/lld/problems/parking-lot) |
+| Ride Sharing System | [→](/docs/lld/problems/ride-sharing) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Refactoring.Guru: Adapter](https://refactoring.guru/design-patterns/adapter)
+- [Refactoring.Guru: Decorator](https://refactoring.guru/design-patterns/decorator)

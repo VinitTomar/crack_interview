@@ -113,8 +113,13 @@ class Circle extends Shape {
 - **Implementing Bridge via abstract class instead of composition**: The whole point is that the abstraction *holds a reference* to the implementor — not inherits from it. Inheritance collapses the two hierarchies back together.
 - **Confusing Bridge with Adapter**: Bridge is designed up-front to keep two hierarchies separate. Adapter is a retrofit to reconcile an existing incompatible interface.
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Library Management System | [→](/docs/lld/problems/library-management) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Refactoring.Guru: Composite](https://refactoring.guru/design-patterns/composite)
+- [Refactoring.Guru: Bridge](https://refactoring.guru/design-patterns/bridge)

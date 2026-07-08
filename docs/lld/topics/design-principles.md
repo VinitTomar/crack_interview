@@ -72,8 +72,14 @@ String city = order.getCustomerCity(); // Order asks its Customer internally
 - **Confusing LoD with "no chaining ever"** — fluent builders like `Pizza.Builder().size(L).build()` are intentional APIs, not LoD violations; LoD applies to reaching into *unrelated* object graphs
 - **Explaining principles without naming them** — if you say "I'll move this to a helper to avoid repeating it", say "DRY" too; interviewers reward vocabulary
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Library Management System | [→](/docs/lld/problems/library-management) |
+| Parking Lot System | [→](/docs/lld/problems/parking-lot) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Design Principles](https://www.hellointerview.com/learn/code/object-oriented-design/solid)
+- [Refactoring.Guru: Principles](https://refactoring.guru/refactoring/catalog)

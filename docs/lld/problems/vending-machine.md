@@ -86,5 +86,5 @@ class CoinSlot  { double acceptCoin(Coin coin); double acceptNote(Note note); vo
 
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Grokking OOD](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+- [Hello Interview: Vending Machine](https://www.hellointerview.com/learn/code/object-oriented-design/vending-machine)
+- [Grokking OOD: Vending Machine](https://github.com/tssovi/grokking-the-object-oriented-design-interview/blob/master/object-oriented-design-case-studies/design-a-vending-machine.md)

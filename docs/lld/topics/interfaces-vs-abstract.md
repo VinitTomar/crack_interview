@@ -90,8 +90,13 @@ class ArrayList<E> extends AbstractList<E> {
 - **Treating `default` methods as equivalent to abstract class methods** — default methods cannot access instance fields (interfaces have none). If your shared method needs `this.fieldName`, you need an abstract class.
 - **Not connecting the choice to testability** — interfaces are easier to mock in tests because you can pass any implementation. Mention this tradeoff: "I'm using an interface here so I can inject a mock in unit tests."
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Ride Sharing System | [→](/docs/lld/problems/ride-sharing) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Interfaces](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
+- [Refactoring.Guru: Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)

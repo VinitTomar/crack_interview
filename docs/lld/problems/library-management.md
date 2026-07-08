@@ -99,5 +99,5 @@ class Library {                                              // Singleton
 
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Grokking OOD](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+- [Hello Interview: Library Management](https://www.hellointerview.com/learn/code/object-oriented-design/library-management-system)
+- [Grokking OOD: Library](https://github.com/tssovi/grokking-the-object-oriented-design-interview/blob/master/object-oriented-design-case-studies/design-a-library-management-system.md)

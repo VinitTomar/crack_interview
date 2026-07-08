@@ -125,5 +125,5 @@ class TripManager {
 
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Grokking OOD](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+- [Hello Interview: Ride Sharing](https://www.hellointerview.com/learn/code/object-oriented-design/ride-sharing)
+- [Grokking OOD: Uber](https://github.com/tssovi/grokking-the-object-oriented-design-interview/blob/master/object-oriented-design-case-studies/design-uber.md)

@@ -168,8 +168,14 @@ alice.send("Hello everyone!");
 - **Confusing Mediator with Facade** — Facade is a one-way simplification layer for a subsystem; Mediator facilitates *peer-to-peer* communication between equals.
 - **Allowing the chain to fail silently** — if no handler processes a request, the chain should either throw or log an explicit warning; silent drops are hard to debug.
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Elevator System | [→](/docs/lld/problems/elevator-system) |
+| Hotel Booking System | [→](/docs/lld/problems/hotel-booking) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Refactoring.Guru: Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
+- [Refactoring.Guru: Mediator](https://refactoring.guru/design-patterns/mediator)

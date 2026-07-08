@@ -96,8 +96,14 @@ class OrderService {
 - **Confusing LSP with type safety** — LSP is a *behavioral* contract, not just a type contract. A subclass that compiles fine but changes a method's observable behavior (e.g., returns empty list instead of throwing) still violates LSP.
 - **Skipping DIP under time pressure** — hardcoding `new` inside a class makes it untestable and tightly coupled. Even a quick `// inject via constructor` comment signals awareness to the interviewer.
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Library Management System | [→](/docs/lld/problems/library-management) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: SOLID](https://www.hellointerview.com/learn/code/object-oriented-design/solid)
+- [Refactoring.Guru: SOLID](https://refactoring.guru/solid)
+- [Gaurav Sen: SOLID Principles](https://www.youtube.com/watch?v=rtmFCcjEgEw)

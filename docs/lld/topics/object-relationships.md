@@ -81,8 +81,13 @@ class OrderService {
 - **Ignoring the dependency relationship** — method parameters that establish a temporary coupling are still a relationship worth noting. They affect testability and coupling metrics.
 - **Over-using association arrows** — drawing every reference as a plain arrow loses the ownership information the diagram is supposed to convey. When in doubt, say aloud "who creates this object?" — the creator usually owns it (composition or at least aggregation).
 
+## Covered by Problems
+
+| Problem | Link |
+|---|---|
+| Hotel Booking System | [→](/docs/lld/problems/hotel-booking) |
+
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Refactoring.Guru](https://refactoring.guru/design-patterns)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
+- [Hello Interview: Relationships](https://www.hellointerview.com/learn/code/object-oriented-design/relationships)
+- [Refactoring.Guru: Relations](https://refactoring.guru/design-patterns/catalog)

@@ -1,10 +1,10 @@
 ---
-title: Parking Lot
-sidebar_label: Parking Lot
+title: Parking Lot System
+sidebar_label: Parking Lot System
 tags: [lld, machine-coding]
 ---
 
-# Parking Lot
+# Parking Lot System
 
 **Difficulty:** Problems | **Track:** LLD
 
@@ -84,5 +84,5 @@ class PaymentService { Receipt charge(Ticket t, PaymentMethod m) { ... } }
 
 ## Resources
 
-- [Hello Interview: OOD](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
-- [Grokking OOD](https://github.com/tssovi/grokking-the-object-oriented-design-interview)
+- [Hello Interview: Parking Lot](https://www.hellointerview.com/learn/code/object-oriented-design/parking-lot)
+- [Grokking OOD: Parking Lot](https://github.com/tssovi/grokking-the-object-oriented-design-interview/blob/master/object-oriented-design-case-studies/design-a-parking-lot.md)
