@@ -13,7 +13,7 @@ const config = {
 
   // Update these two when you push to GitHub Pages:
   url: "https://your-github-username.github.io",
-  baseUrl: "/crack_interview/",
+  baseUrl: "/",
 
   organizationName: "your-github-username",
   projectName: "Crack Interview",
