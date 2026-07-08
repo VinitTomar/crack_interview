@@ -1,0 +1,442 @@
+/* ── Page wrapper ── */
+.roadmapPage {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  font-family: var(--ifm-font-family-base);
+}
+
+/* ── Hero header ── */
+.hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--ifm-heading-color);
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+/* ── Sticky controls bar ── */
+.controls {
+  position: sticky;
+  top: 60px;
+  z-index: 200;
+  background: var(--ifm-background-surface-color, #ffffff);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 0.75rem 0;
+  margin: 0 -1.5rem 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: padding 0.2s ease;
+}
+
+.controlsCompact {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+/* ── Progress bar ── */
+.progressSection {
+  margin-bottom: 0.75rem;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0.35rem;
+  max-height: 60px;
+  overflow: hidden;
+  opacity: 1;
+  transition: max-height 0.2s ease, opacity 0.15s ease, margin-bottom 0.2s ease;
+}
+
+.progressBreakdown {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.78rem;
+  color: var(--ifm-color-emphasis-600);
+  max-height: 40px;
+  overflow: hidden;
+  opacity: 1;
+  transition: max-height 0.2s ease, opacity 0.15s ease;
+}
+
+.progressHidden {
+  max-height: 0 !important;
+  opacity: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.progressBarRow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.progressBarTrack {
+  flex: 1;
+  height: 6px;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.progressCompactLabel {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-600);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.progressBarFill {
+  height: 100%;
+  background: linear-gradient(90deg, #16a34a, #22c55e);
+  border-radius: 99px;
+  transition: width 0.4s ease;
+}
+
+/* ── Search + filter row ── */
+.searchFilterRow {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.searchInput {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.searchInput:focus {
+  border-color: var(--ifm-color-primary);
+}
+
+.filterTabs {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.filterTab {
+  padding: 0.35rem 0.85rem;
+  border-radius: 99px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: transparent;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--ifm-color-emphasis-700);
+  transition: all 0.15s;
+}
+
+.filterTab:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.filterTabActive {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary);
+  color: #fff;
+}
+
+/* ── Level section ── */
+.levelSection {
+  margin-bottom: 3rem;
+}
+
+.levelHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.levelDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.levelTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+}
+
+.levelCount {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  font-weight: 500;
+}
+
+/* ── Timeline ── */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 1px;
+}
+
+/* ── Topic card ── */
+.topicItem {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.topicNode {
+  position: absolute;
+  left: -2rem;
+  top: 1.1rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2.5px solid;
+  background: var(--ifm-background-color);
+  transition: all 0.2s;
+  z-index: 1;
+}
+
+.topicNodeDone {
+  background: currentColor;
+}
+
+.topicCard {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  background: var(--ifm-background-surface-color);
+  overflow: hidden;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.topicCard:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+}
+
+.topicCardDone {
+  opacity: 0.65;
+}
+
+/* ── Card header (always visible) ── */
+.topicHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.topicCheckbox {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  cursor: pointer;
+  accent-color: #16a34a;
+}
+
+.topicNumber {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-500);
+  min-width: 1.6rem;
+  flex-shrink: 0;
+}
+
+.topicTitle {
+  flex: 1;
+  font-size: 0.97rem;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+}
+
+.topicTitleDone {
+  text-decoration: line-through;
+  color: var(--ifm-color-emphasis-500);
+}
+
+.diffBadge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 99px;
+  letter-spacing: 0.03em;
+  flex-shrink: 0;
+}
+
+.diffEasy {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.diffMedium {
+  background: #fef9c3;
+  color: #a16207;
+}
+
+.diffHard {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.expandIcon {
+  font-size: 0.7rem;
+  color: var(--ifm-color-emphasis-500);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.expandIconOpen {
+  transform: rotate(180deg);
+}
+
+/* ── Card body (expanded) ── */
+.topicBody {
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.2s ease;
+  max-height: 0;
+  opacity: 0;
+}
+
+.topicBodyOpen {
+  max-height: 800px;
+  opacity: 1;
+}
+
+.topicBodyInner {
+  padding: 0 1rem 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-100);
+}
+
+.sectionLabel {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-emphasis-500);
+  margin: 0.9rem 0 0.4rem;
+}
+
+.topicDescription {
+  font-size: 0.88rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.resourceList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.resourceLink {
+  font-size: 0.85rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.resourceLink:hover {
+  text-decoration: underline;
+}
+
+.problemList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.problemChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 99px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  background: var(--ifm-background-color);
+  transition: all 0.15s;
+}
+
+.problemChip:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.docsLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.82rem;
+  margin-top: 0.9rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.docsLink:hover {
+  text-decoration: underline;
+}
+
+/* ── Empty state ── */
+.emptyState {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--ifm-color-emphasis-500);
+  font-size: 0.95rem;
+}
+
+/* ── Mobile layout ── */
+@media (max-width: 600px) {
+  .searchFilterRow {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filterTabs {
+    justify-content: center;
+  }
+}
