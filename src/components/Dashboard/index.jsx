@@ -76,7 +76,7 @@ export default function Dashboard() {
   return (
     <div className={styles.dashboard}>
       <div className={styles.heroSection}>
-        <h1 className={styles.heroTitle}>Crack Interview</h1>
+        <h1 className={styles.heroTitle}>Buzz Interview</h1>
         <p className={styles.heroSubtitle}>
           Two roadmaps to nail your software engineering interviews — System Design (HLD) and Object Oriented Design (LLD).
         </p>

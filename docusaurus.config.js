@@ -3,7 +3,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Crack Interview",
+  title: "Buzz Interview",
   tagline: "HLD & LLD roadmaps for software engineering interviews",
   favicon: "img/favicon.ico",
 
@@ -12,7 +12,7 @@ const config = {
   },
 
   // Update these two when you push to GitHub Pages:
-  url: "https://your-github-username.github.io",
+  url: "https://buzzinterview.com",
   baseUrl: "/",
 
   organizationName: "your-github-username",
@@ -56,7 +56,7 @@ const config = {
         disableSwitch: false,
       },
       navbar: {
-        title: "Crack Interview",
+        title: "Buzz Interview",
         items: [
           { to: "/", label: "Home", position: "left" },
           { to: "/hld", label: "HLD Roadmap", position: "left" },

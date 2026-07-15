@@ -5,7 +5,7 @@ import Dashboard from '../components/Dashboard';
 export default function Home() {
   return (
     <Layout
-      title="Crack Interview"
+      title="Buzz Interview"
       description="HLD and LLD roadmaps for software engineering interviews — system design, OOP, and design patterns."
     >
       <main>
