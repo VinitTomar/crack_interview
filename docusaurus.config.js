@@ -5,7 +5,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Buzz Interview",
   tagline: "HLD & LLD roadmaps for software engineering interviews",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.svg",
 
   future: {
     v4: true,
@@ -56,6 +56,10 @@ const config = {
         disableSwitch: false,
       },
       navbar: {
+        logo: {
+          alt: 'Buzz Interview',
+          src: 'img/logo.svg',
+        },
         title: "Buzz Interview",
         items: [
           { to: "/", label: "Home", position: "left" },
