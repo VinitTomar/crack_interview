@@ -103,6 +103,8 @@ class ProductDataMigration extends DataMigration {
 
 **Decision shortcut**: Command enables undo/redo and queuing by making requests first-class objects. Template Method is the Hollywood Principle in code — the base class calls you, you don't call it.
 
+> **See also:** [Memento Pattern](/docs/lld/topics/memento-pattern) — Command executes the action; Memento captures the state to restore on undo.
+
 ## Common interview mistakes
 
 - **Omitting `undo()` from Command**: The undo capability is the main reason interviewers ask about Command. Always define `undo()` and store enough state in the command to reverse the operation.

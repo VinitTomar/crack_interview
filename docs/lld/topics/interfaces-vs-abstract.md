@@ -98,5 +98,4 @@ class ArrayList<E> extends AbstractList<E> {
 
 ## Resources
 
-- [Hello Interview: Interfaces](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
 - [Refactoring.Guru: Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)

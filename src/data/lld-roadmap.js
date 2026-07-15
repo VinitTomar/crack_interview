@@ -11,9 +11,7 @@ export const LLD_LEVELS = [
         title: 'OOP Fundamentals',
         description: 'The four pillars of OOP: encapsulation (hiding internal state), inheritance (reusing behaviour), polymorphism (same interface, different behaviour), and abstraction (exposing what matters, hiding how). Understand how classes and objects model real-world entities and why OOP improves modularity and reuse.',
         resources: [
-          { label: 'Hello Interview: OOD Introduction', url: 'https://www.hellointerview.com/learn/code/object-oriented-design/introduction' },
           { label: 'Refactoring.Guru: OOP Basics', url: 'https://refactoring.guru/design-patterns/what-is-pattern' },
-          { label: 'Gaurav Sen: OOD Series', url: 'https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX' },
         ],
         coveredBy: [
           { name: 'Parking Lot System', difficulty: 'Advanced', url: '/docs/lld/problems/parking-lot' },
@@ -27,9 +25,8 @@ export const LLD_LEVELS = [
         title: 'SOLID Principles',
         description: 'Five principles for writing maintainable OO code: Single Responsibility (one reason to change), Open-Closed (open for extension, closed for modification), Liskov Substitution (subtypes must be substitutable), Interface Segregation (prefer narrow interfaces), Dependency Inversion (depend on abstractions, not concretions). SOLID violations are red flags in every OOD interview.',
         resources: [
-          { label: 'Hello Interview: SOLID', url: 'https://www.hellointerview.com/learn/code/object-oriented-design/solid' },
-          { label: 'Refactoring.Guru: SOLID', url: 'https://refactoring.guru/solid' },
-          { label: 'Gaurav Sen: SOLID Principles', url: 'https://www.youtube.com/watch?v=rtmFCcjEgEw' },
+          { label: 'Refactoring.Guru: SOLID', url: 'https://refactoring.guru/refactoring/catalog' },
+          { label: 'Laracon EU: SOLID Principles', url: 'https://www.youtube.com/watch?v=rtmFCcjEgEw' },
         ],
         coveredBy: [
           { name: 'Library Management System', difficulty: 'Advanced', url: '/docs/lld/problems/library-management' },
@@ -42,7 +39,6 @@ export const LLD_LEVELS = [
         title: 'Object Relationships',
         description: 'How objects relate: association (uses-a, loose coupling), aggregation (has-a, independent lifecycle), composition (part-of, dependent lifecycle), and dependency (method parameter). Knowing when to use composition over inheritance is a core interview skill. Model these correctly and your class diagrams become self-documenting.',
         resources: [
-          { label: 'Hello Interview: Relationships', url: 'https://www.hellointerview.com/learn/code/object-oriented-design/relationships' },
           { label: 'Refactoring.Guru: Relations', url: 'https://refactoring.guru/design-patterns/catalog' },
         ],
         coveredBy: [
@@ -56,7 +52,6 @@ export const LLD_LEVELS = [
         title: 'Interfaces vs Abstract Classes',
         description: 'Interfaces define contracts (what to do), abstract classes share partial implementations (how to do some of it). Know when each applies: prefer interfaces for capability definitions (Serializable, Comparable), abstract classes for shared state or template logic. In Java/C#, a class can implement multiple interfaces but extend only one abstract class.',
         resources: [
-          { label: 'Hello Interview: Interfaces', url: 'https://www.hellointerview.com/learn/code/object-oriented-design/introduction' },
           { label: 'Refactoring.Guru: Abstract Factory', url: 'https://refactoring.guru/design-patterns/abstract-factory' },
         ],
         coveredBy: [
@@ -70,7 +65,6 @@ export const LLD_LEVELS = [
         title: 'Design Principles',
         description: 'Beyond SOLID: DRY (Don\'t Repeat Yourself — one source of truth), YAGNI (You Ain\'t Gonna Need It — avoid premature abstraction), KISS (Keep It Simple), Law of Demeter (talk only to direct neighbours, avoid train wrecks), and Composition Over Inheritance (prefer delegation to deep hierarchies). These are the judgment calls interviewers watch for.',
         resources: [
-          { label: 'Hello Interview: Design Principles', url: 'https://www.hellointerview.com/learn/code/object-oriented-design/solid' },
           { label: 'Refactoring.Guru: Principles', url: 'https://refactoring.guru/refactoring/catalog' },
         ],
         coveredBy: [
@@ -85,7 +79,6 @@ export const LLD_LEVELS = [
         title: 'UML & Class Diagrams',
         description: 'Class diagrams show entities (classes/interfaces), their attributes, methods, and relationships. Sequence diagrams show message flow between objects over time. Interviewers expect a quick whiteboard sketch — not perfection. Focus on class names, key fields, relationships (solid line = association, hollow diamond = aggregation, filled diamond = composition, hollow arrow = inheritance), and the arrows\' direction.',
         resources: [
-          { label: 'Hello Interview: Class Diagrams', url: 'https://www.hellointerview.com/learn/code/object-oriented-design/introduction' },
           { label: 'Lucidchart: UML Guide', url: 'https://www.lucidchart.com/pages/uml-class-diagram' },
         ],
         coveredBy: [
@@ -93,6 +86,30 @@ export const LLD_LEVELS = [
           { name: 'Elevator System', difficulty: 'Advanced', url: '/docs/lld/problems/elevator-system' },
         ],
         docsPath: '/docs/lld/topics/uml-diagrams',
+      },
+      {
+        id: 'design-anti-patterns',
+        number: 7,
+        title: 'Design Anti-Patterns & Code Smells',
+        description: 'Recognize bad design before it spreads. God Class (one class that does everything), Anemic Domain Model (data bags with no behaviour), Feature Envy (method uses another class more than its own), Data Clump (groups of fields that always appear together), and Primitive Obsession (using primitives instead of domain types). Interviewers often show broken code and ask what is wrong — this vocabulary lets you name the problem precisely.',
+        resources: [
+          { label: 'Refactoring.Guru: Code Smells', url: 'https://refactoring.guru/refactoring/smells' },
+          { label: 'Refactoring.Guru: Refactoring Catalog', url: 'https://refactoring.guru/refactoring/catalog' },
+        ],
+        coveredBy: [],
+        docsPath: '/docs/lld/topics/design-anti-patterns',
+      },
+      {
+        id: 'null-safety',
+        number: 8,
+        title: 'Null Safety & Null Object Pattern',
+        description: 'NullPointerException is the most common Java runtime error and a red flag in interviews. The Null Object pattern returns a no-op object instead of null, eliminating defensive null checks throughout the codebase. Java Optional<T> lets you express "may or may not have a value" in the type system. Key rule: never call Optional.get() without isPresent(), and never return null from a public API.',
+        resources: [
+          { label: 'Refactoring.Guru: Null Object', url: 'https://refactoring.guru/introduce-null-object' },
+          { label: 'Baeldung: Java Optional', url: 'https://www.baeldung.com/java-optional' },
+        ],
+        coveredBy: [],
+        docsPath: '/docs/lld/topics/null-safety',
       },
     ],
   },
@@ -109,8 +126,6 @@ export const LLD_LEVELS = [
         description: 'Control object creation: Factory Method (let subclasses decide which class to instantiate), Abstract Factory (families of related objects), Builder (construct complex objects step-by-step), Singleton (ensure one instance), Prototype (clone existing objects). Factory and Builder are the most common in LLD interviews. Know the tradeoffs — Singleton is often a testing anti-pattern.',
         resources: [
           { label: 'Refactoring.Guru: Creational', url: 'https://refactoring.guru/design-patterns/creational-patterns' },
-          { label: 'Hello Interview: Design Patterns', url: 'https://www.hellointerview.com/learn/code/object-oriented-design/design-patterns' },
-          { label: 'Gaurav Sen: Design Patterns', url: 'https://www.youtube.com/watch?v=tAuRQs_d9F4' },
         ],
         coveredBy: [
           { name: 'Vending Machine', difficulty: 'Advanced', url: '/docs/lld/problems/vending-machine' },
@@ -173,7 +188,7 @@ export const LLD_LEVELS = [
         resources: [
           { label: 'Refactoring.Guru: Observer', url: 'https://refactoring.guru/design-patterns/observer' },
           { label: 'Refactoring.Guru: Strategy', url: 'https://refactoring.guru/design-patterns/strategy' },
-          { label: 'Gaurav Sen: Observer Pattern', url: 'https://www.youtube.com/watch?v=oNalXg67XEE' },
+          { label: 'ArjanCodes: Observer Pattern Tutorial', url: 'https://www.youtube.com/watch?v=oNalXg67XEE' },
         ],
         coveredBy: [
           { name: 'Ride Sharing System', difficulty: 'Advanced', url: '/docs/lld/problems/ride-sharing' },
@@ -198,6 +213,46 @@ export const LLD_LEVELS = [
           { name: 'Thread-Safe Rate Limiter', difficulty: 'Advanced', url: '/docs/lld/problems/rate-limiter-lld' },
         ],
         docsPath: '/docs/lld/topics/behavioral-command-template',
+      },
+      {
+        id: 'flyweight-pattern',
+        number: 17,
+        title: 'Flyweight Pattern',
+        description: 'Share fine-grained objects to reduce memory when you have thousands or millions of similar objects. Split state into intrinsic (shared, immutable — stored in the flyweight) and extrinsic (per-instance — passed in by the caller). Classic example: a chess piece type object shared across all instances of that piece on the board. The FlyweightFactory caches and returns existing instances instead of creating new ones.',
+        resources: [
+          { label: 'Refactoring.Guru: Flyweight', url: 'https://refactoring.guru/design-patterns/flyweight' },
+        ],
+        coveredBy: [
+          { name: 'Chess Game', difficulty: 'Advanced', url: '/docs/lld/problems/chess-game' },
+          { name: 'In-Memory File System', difficulty: 'Advanced', url: '/docs/lld/problems/file-system' },
+        ],
+        docsPath: '/docs/lld/topics/flyweight-pattern',
+      },
+      {
+        id: 'memento-pattern',
+        number: 18,
+        title: 'Memento Pattern',
+        description: 'Capture and restore an object\'s internal state without exposing its internals — the foundation of undo/redo. Three roles: Originator (creates and restores from memento), Memento (opaque snapshot of state), Caretaker (stores and manages mementos, does not inspect them). Pairs directly with Command: Command executes an action, Memento records the state to roll back to.',
+        resources: [
+          { label: 'Refactoring.Guru: Memento', url: 'https://refactoring.guru/design-patterns/memento' },
+        ],
+        coveredBy: [
+          { name: 'Chess Game', difficulty: 'Advanced', url: '/docs/lld/problems/chess-game' },
+        ],
+        docsPath: '/docs/lld/topics/memento-pattern',
+      },
+      {
+        id: 'visitor-pattern',
+        number: 19,
+        title: 'Visitor Pattern',
+        description: 'Add new operations to a type hierarchy without modifying the types. A Visitor object implements one visit() method per type in the hierarchy; each type calls accept(visitor) which dispatches to the right visit() overload — this is double dispatch. Use when you have a stable set of types but frequently add new operations (serialise, render, export, validate). Hard conceptual question at Google/Amazon senior level.',
+        resources: [
+          { label: 'Refactoring.Guru: Visitor', url: 'https://refactoring.guru/design-patterns/visitor' },
+        ],
+        coveredBy: [
+          { name: 'In-Memory File System', difficulty: 'Advanced', url: '/docs/lld/problems/file-system' },
+        ],
+        docsPath: '/docs/lld/topics/visitor-pattern',
       },
     ],
   },
@@ -243,7 +298,7 @@ export const LLD_LEVELS = [
         title: 'Dependency Injection & IoC',
         description: 'Dependency Injection (DI) means providing an object\'s dependencies from outside rather than creating them internally — constructor injection, setter injection, or interface injection. Inversion of Control (IoC) is the broader principle: the framework calls your code, not the other way around. DI makes code testable (swap real DBs for mocks) and decoupled.',
         resources: [
-          { label: 'Gaurav Sen: DI & IoC', url: 'https://www.youtube.com/watch?v=EPv9-cHEmQw' },
+          { label: 'Ryan Schachte: Dependency Injection & IoC', url: 'https://www.youtube.com/watch?v=EPv9-cHEmQw' },
           { label: 'Refactoring.Guru: DI', url: 'https://refactoring.guru/design-patterns/catalog' },
         ],
         coveredBy: [
@@ -258,14 +313,134 @@ export const LLD_LEVELS = [
         title: 'Concurrency Patterns',
         description: 'Thread-safe design: Producer-Consumer with a bounded blocking queue, Reader-Writer lock (multiple readers OR one writer), Thread Pool (reuse threads to avoid creation overhead), Monitor pattern (synchronised methods + wait/notify). Key concepts: mutual exclusion, deadlock prevention, liveness. Essential for rate limiter, cache, and any shared-resource LLD problem.',
         resources: [
-          { label: 'Gaurav Sen: Concurrency', url: 'https://www.youtube.com/watch?v=iKtvNJQoCNw' },
-          { label: 'Hello Interview: Concurrency', url: 'https://www.hellointerview.com/learn/code/object-oriented-design/concurrency' },
+          { label: 'Mike Swift: Introduction to Concurrency', url: 'https://www.youtube.com/watch?v=iKtvNJQoCNw' },
         ],
         coveredBy: [
           { name: 'Thread-Safe Rate Limiter', difficulty: 'Advanced', url: '/docs/lld/problems/rate-limiter-lld' },
           { name: 'LRU / LFU Cache', difficulty: 'Advanced', url: '/docs/lld/problems/lru-cache' },
         ],
         docsPath: '/docs/lld/topics/concurrency-patterns',
+      },
+      {
+        id: 'immutability-value-objects',
+        number: 20,
+        title: 'Immutability & Value Objects',
+        description: 'Immutable objects need zero synchronisation — the simplest concurrency strategy. Make fields final, return defensive copies of collections, and provide no setters. Value Objects have no identity — two Money(100, USD) instances are equal regardless of reference. Java 16+ records are value objects by default. Distinguish from Entities (identity-based equality, mutable): Order is an Entity, Money is a Value Object.',
+        resources: [
+          { label: 'Refactoring.Guru: Replace Data Value with Object', url: 'https://refactoring.guru/replace-data-value-with-object' },
+          { label: 'Baeldung: Immutable Objects', url: 'https://www.baeldung.com/java-immutable-object' },
+        ],
+        coveredBy: [
+          { name: 'Splitwise', difficulty: 'Advanced', url: '/docs/lld/problems/splitwise' },
+        ],
+        docsPath: '/docs/lld/topics/immutability-value-objects',
+      },
+      {
+        id: 'exception-hierarchy',
+        number: 21,
+        title: 'Exception Hierarchy Design',
+        description: 'Design exceptions that communicate domain intent. Checked exceptions (extends Exception) signal recoverable conditions — the caller must handle them. Unchecked exceptions (extends RuntimeException) signal programming errors — let them propagate. Build a hierarchy: BookingException → SeatUnavailableException, InsufficientFundsException. Fail-fast: validate inputs at boundaries and throw early rather than propagating bad state deep into the system.',
+        resources: [
+          { label: 'Baeldung: Custom Exceptions', url: 'https://www.baeldung.com/java-new-custom-exception' },
+          { label: 'Baeldung: Checked vs Unchecked', url: 'https://www.baeldung.com/java-checked-unchecked-exceptions' },
+        ],
+        coveredBy: [
+          { name: 'ATM Machine', difficulty: 'Advanced', url: '/docs/lld/problems/atm-machine' },
+        ],
+        docsPath: '/docs/lld/topics/exception-hierarchy',
+      },
+      {
+        id: 'enum-state-machines',
+        number: 22,
+        title: 'Enum-Based State Machines',
+        description: 'Java enums with abstract methods are a lightweight alternative to the class-per-state State pattern when states are fixed and transitions are simple. Each enum constant overrides the abstract method with its own behaviour. Add a transition() method that enforces valid transitions and throws IllegalStateException for invalid ones. Reach for this idiom first in interviews — it is concise, readable, and avoids the boilerplate of full State pattern classes.',
+        resources: [
+          { label: 'Refactoring.Guru: State', url: 'https://refactoring.guru/design-patterns/state' },
+          { label: 'Baeldung: Enum State Machine', url: 'https://www.baeldung.com/java-enum-simple-state-machine' },
+        ],
+        coveredBy: [
+          { name: 'Vending Machine', difficulty: 'Advanced', url: '/docs/lld/problems/vending-machine' },
+          { name: 'ATM Machine', difficulty: 'Advanced', url: '/docs/lld/problems/atm-machine' },
+          { name: 'Task Management System', difficulty: 'Advanced', url: '/docs/lld/problems/task-management' },
+        ],
+        docsPath: '/docs/lld/topics/enum-state-machines',
+      },
+      {
+        id: 'functional-java-patterns',
+        number: 23,
+        title: 'Functional Java Patterns',
+        description: 'Java 8+ idioms expected in every modern interview. Stream pipeline: filter → map → collect. groupingBy() for aggregations. Optional chaining: map/flatMap/orElse instead of null checks. Functional interfaces: Function<T,R>, Predicate<T>, Supplier<T>, Consumer<T>. Comparator.comparing() for concise sorting. Method references (Class::method) over verbose lambdas. Writing for-loops when streams apply is a signal of dated knowledge.',
+        resources: [
+          { label: 'Baeldung: Java 8 Streams', url: 'https://www.baeldung.com/java-8-streams' },
+          { label: 'Baeldung: Functional Interfaces', url: 'https://www.baeldung.com/java-8-functional-interfaces' },
+          { label: 'Baeldung: Java Optional', url: 'https://www.baeldung.com/java-optional' },
+        ],
+        coveredBy: [],
+        docsPath: '/docs/lld/topics/functional-java-patterns',
+      },
+      {
+        id: 'domain-modeling-basics',
+        number: 24,
+        title: 'Domain Modeling Basics',
+        description: 'Translate a problem statement into a class model. Entity: has identity, mutable, persisted (Order, User). Value Object: no identity, immutable, equality by value (Money, Address). Aggregate: consistency boundary with a root entity that controls all access to internal objects (Order owns OrderItems). Repository: collection abstraction that hides persistence details. Service: stateless operation that does not belong on any entity. Avoid the Anemic Domain Model — put behaviour on entities, not in service methods.',
+        resources: [
+          { label: 'Martin Fowler: Anemic Domain Model', url: 'https://martinfowler.com/bliki/AnemicDomainModel.html' },
+          { label: 'Baeldung: DDD with Spring', url: 'https://www.baeldung.com/spring-data-ddd' },
+        ],
+        coveredBy: [
+          { name: 'Splitwise', difficulty: 'Advanced', url: '/docs/lld/problems/splitwise' },
+          { name: 'Food Delivery System', difficulty: 'Advanced', url: '/docs/lld/problems/food-delivery' },
+        ],
+        docsPath: '/docs/lld/topics/domain-modeling-basics',
+      },
+    ],
+  },
+  {
+    id: 'expert',
+    label: 'Level 4 — Expert',
+    difficulty: 'Expert',
+    color: '#7c3aed',
+    topics: [
+      {
+        id: 'object-pool',
+        number: 25,
+        title: 'Object Pool & Resource Management',
+        description: 'Reuse expensive objects (DB connections, threads, HTTP clients) instead of creating and destroying them repeatedly. Pool maintains a bounded set of idle objects. Borrower calls acquire() — blocks or times out if none available. Returns object via release(). Implementation: Semaphore bounds total connections, BlockingQueue holds idle objects, health-check on borrow, scheduled eviction of idle-too-long objects. The canonical hard concurrency problem in LLD interviews.',
+        resources: [
+          { label: 'Baeldung: Object Pooling', url: 'https://www.baeldung.com/java-object-pool' },
+          { label: 'Baeldung: BlockingQueue', url: 'https://www.baeldung.com/java-blocking-queue' },
+        ],
+        coveredBy: [
+          { name: 'Connection Pool Manager', difficulty: 'Expert', url: '/docs/lld/problems/connection-pool' },
+        ],
+        docsPath: '/docs/lld/topics/object-pool',
+      },
+      {
+        id: 'event-driven-design',
+        number: 26,
+        title: 'Event-Driven Design',
+        description: 'Decouple components by having them communicate through events rather than direct calls. Domain events are immutable data records (OrderPlaced, TripCompleted). Publisher raises events; handlers subscribe and react. Synchronous dispatch: handlers called inline in the same thread. Asynchronous: events queued and processed later. Distinguish from Observer: Observer is a pattern, event-driven is an architecture style. Use to model multi-actor workflows where each state transition triggers downstream reactions.',
+        resources: [
+          { label: 'Martin Fowler: Domain Events', url: 'https://martinfowler.com/eaaDev/DomainEvent.html' },
+          { label: 'Baeldung: Spring Events', url: 'https://www.baeldung.com/spring-events' },
+        ],
+        coveredBy: [
+          { name: 'Food Delivery System', difficulty: 'Expert', url: '/docs/lld/problems/food-delivery' },
+          { name: 'Notification Service', difficulty: 'Expert', url: '/docs/lld/problems/notification-service' },
+        ],
+        docsPath: '/docs/lld/topics/event-driven-design',
+      },
+      {
+        id: 'clean-architecture',
+        number: 27,
+        title: 'Clean Architecture & Layered Design',
+        description: 'Structure code so the domain layer has zero dependencies on infrastructure. Three layers: Domain (entities, value objects, domain services — pure Java, no frameworks), Application Service (orchestrates domain objects, no business logic itself), Infrastructure/Adapter (repositories, APIs, external services). The Dependency Rule: inner layers never import outer layers. Ports and adapters: domain defines interfaces (ports), infrastructure provides implementations (adapters). Makes domain logic testable without a database or HTTP stack.',
+        resources: [
+          { label: 'Uncle Bob: The Clean Architecture', url: 'https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html' },
+          { label: 'Baeldung: Hexagonal Architecture', url: 'https://www.baeldung.com/hexagonal-architecture-ddd-spring' },
+        ],
+        coveredBy: [],
+        docsPath: '/docs/lld/topics/clean-architecture',
       },
     ],
   },

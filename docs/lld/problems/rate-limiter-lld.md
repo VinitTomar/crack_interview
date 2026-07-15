@@ -130,4 +130,4 @@ class RateLimiterFactory {
 ## Resources
 
 - [Hello Interview: Rate Limiter LLD](https://www.hellointerview.com/learn/code/object-oriented-design/rate-limiter)
-- [Gaurav Sen: Rate Limiting](https://www.youtube.com/watch?v=mhUQe4BKZXs)
+- [Tech Dummies: Rate Limiting System Design](https://www.youtube.com/watch?v=mhUQe4BKZXs)

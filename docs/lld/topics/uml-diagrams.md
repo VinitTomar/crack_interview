@@ -131,5 +131,4 @@ Client        ParkingLot      ParkingFloor     Ticket
 
 ## Resources
 
-- [Hello Interview: Class Diagrams](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
 - [Lucidchart: UML Guide](https://www.lucidchart.com/pages/uml-class-diagram)

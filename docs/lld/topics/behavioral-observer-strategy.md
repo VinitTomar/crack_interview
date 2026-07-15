@@ -118,4 +118,4 @@ class OrderPricer {
 
 - [Refactoring.Guru: Observer](https://refactoring.guru/design-patterns/observer)
 - [Refactoring.Guru: Strategy](https://refactoring.guru/design-patterns/strategy)
-- [Gaurav Sen: Observer Pattern](https://www.youtube.com/watch?v=oNalXg67XEE)
+- [ArjanCodes: Observer Pattern Tutorial](https://www.youtube.com/watch?v=oNalXg67XEE)

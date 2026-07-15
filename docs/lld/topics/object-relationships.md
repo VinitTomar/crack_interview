@@ -89,5 +89,4 @@ class OrderService {
 
 ## Resources
 
-- [Hello Interview: Relationships](https://www.hellointerview.com/learn/code/object-oriented-design/relationships)
 - [Refactoring.Guru: Relations](https://refactoring.guru/design-patterns/catalog)

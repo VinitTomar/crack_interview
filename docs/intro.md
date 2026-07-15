@@ -9,7 +9,6 @@ sidebar_label: How to Use
 This site is an interactive roadmap for preparing for system design interviews, compiled from:
 
 - [Hello Interview — System Design in a Hurry](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction)
-- [Gaurav Sen — System Design Playlist](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
 - [InterviewReady by Gaurav Sen](https://interviewready.io/course-page/system-design-course)
 - [Hello Interview YouTube](https://www.youtube.com/@hello_interview/playlists)
 

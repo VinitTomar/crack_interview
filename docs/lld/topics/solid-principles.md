@@ -104,6 +104,5 @@ class OrderService {
 
 ## Resources
 
-- [Hello Interview: SOLID](https://www.hellointerview.com/learn/code/object-oriented-design/solid)
-- [Refactoring.Guru: SOLID](https://refactoring.guru/solid)
-- [Gaurav Sen: SOLID Principles](https://www.youtube.com/watch?v=rtmFCcjEgEw)
+- [Refactoring.Guru: SOLID](https://refactoring.guru/refactoring/catalog)
+- [Laracon EU: SOLID Principles](https://www.youtube.com/watch?v=rtmFCcjEgEw)

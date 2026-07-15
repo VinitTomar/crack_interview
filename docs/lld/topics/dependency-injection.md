@@ -140,5 +140,5 @@ class UserServiceSpring {
 
 ## Resources
 
-- [Gaurav Sen: DI & IoC](https://www.youtube.com/watch?v=EPv9-cHEmQw)
+- [Ryan Schachte: Dependency Injection & IoC](https://www.youtube.com/watch?v=EPv9-cHEmQw)
 - [Refactoring.Guru: DI](https://refactoring.guru/design-patterns/catalog)

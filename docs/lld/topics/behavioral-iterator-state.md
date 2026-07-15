@@ -34,6 +34,8 @@ Key points:
 - Transitions can live either in the state objects (state decides what comes next) or in the context (context decides). Keeping them in the state objects is more common and more cohesive.
 - **State vs. Strategy**: both replace conditionals with polymorphism. The difference is *who controls switching*. Strategy is set once by the client and typically does not change itself; State transitions happen internally as the object's lifecycle progresses.
 
+> **See also:** [Enum-Based State Machines](/docs/lld/topics/enum-state-machines) — the Java enum idiom is a concise alternative when states are fixed and don't need instance data.
+
 ## Code example
 
 ```java

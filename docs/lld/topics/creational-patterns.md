@@ -131,5 +131,3 @@ class ConfigManager {
 ## Resources
 
 - [Refactoring.Guru: Creational Patterns](https://refactoring.guru/design-patterns/creational-patterns)
-- [Hello Interview: Design Patterns](https://www.hellointerview.com/learn/code/object-oriented-design/design-patterns)
-- [Gaurav Sen: Design Patterns](https://www.youtube.com/watch?v=tAuRQs_d9F4)

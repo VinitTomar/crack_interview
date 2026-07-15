@@ -84,4 +84,4 @@ class ThreadSafeLRUCache<K, V> {
 ## Resources
 
 - [Hello Interview: LRU Cache](https://www.hellointerview.com/learn/code/object-oriented-design/lru-cache)
-- [Gaurav Sen: LRU Cache Design](https://www.youtube.com/watch?v=DUbEgNw-F9c)
+- [Tech Dummies: Distributed Cache System Design](https://www.youtube.com/watch?v=DUbEgNw-F9c)

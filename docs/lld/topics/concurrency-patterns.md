@@ -67,6 +67,8 @@ A monitor combines a lock with one or more condition variables. In Java, every `
 
 Use `ReentrantLock` + `Condition` instead of `synchronized` + `wait/notify` when you need multiple wait queues or timed waits.
 
+> **See also:** [Object Pool & Resource Management](/docs/lld/topics/object-pool) — the canonical advanced problem combining Semaphore, BlockingQueue, and lifecycle management.
+
 ## Code example — Thread-safe Token Bucket rate limiter
 
 ```java
@@ -184,5 +186,4 @@ class ThreadSafeCache<K, V> {
 
 ## Resources
 
-- [Gaurav Sen: Concurrency](https://www.youtube.com/watch?v=iKtvNJQoCNw)
-- [Hello Interview: Concurrency](https://www.hellointerview.com/learn/code/object-oriented-design/concurrency)
+- [Mike Swift: Introduction to Concurrency](https://www.youtube.com/watch?v=iKtvNJQoCNw)

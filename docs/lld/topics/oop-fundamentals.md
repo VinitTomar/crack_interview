@@ -89,4 +89,3 @@ shapes.forEach(s -> System.out.println(s.area()));
 
 - [Hello Interview: OOD Introduction](https://www.hellointerview.com/learn/code/object-oriented-design/introduction)
 - [Refactoring.Guru: OOP Basics](https://refactoring.guru/design-patterns/what-is-pattern)
-- [Gaurav Sen: OOD Series](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)

@@ -81,5 +81,4 @@ String city = order.getCustomerCity(); // Order asks its Customer internally
 
 ## Resources
 
-- [Hello Interview: Design Principles](https://www.hellointerview.com/learn/code/object-oriented-design/solid)
 - [Refactoring.Guru: Principles](https://refactoring.guru/refactoring/catalog)
