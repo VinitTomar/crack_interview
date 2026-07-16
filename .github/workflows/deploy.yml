@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   deploy:
-    name: Deploy Docusaurus site
+    name: Deploy site
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

@@ -1,7 +1,6 @@
 // @ts-check
 import { themes as prismThemes } from "prism-react-renderer";
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Buzz Interview",
   tagline: "HLD & LLD roadmaps for software engineering interviews",
@@ -16,7 +15,7 @@ const config = {
   baseUrl: "/",
 
   organizationName: "your-github-username",
-  projectName: "Crack Interview",
+  projectName: "buzz-interview",
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
@@ -35,7 +34,6 @@ const config = {
   presets: [
     [
       "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: "./sidebars.js",
@@ -48,9 +46,7 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+  themeConfig: ({
       colorMode: {
         defaultMode: "light",
         disableSwitch: false,
@@ -62,7 +58,6 @@ const config = {
         },
         title: "Buzz Interview",
         items: [
-          { to: "/", label: "Home", position: "left" },
           { to: "/hld", label: "HLD Roadmap", position: "left" },
           { to: "/lld", label: "LLD Roadmap", position: "left" },
         ],

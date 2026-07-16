@@ -1,4 +1,4 @@
-# Crack Interview
+# Buzz Interview
 
 A structured, self-hosted study guide for cracking software engineering interviews.
 
@@ -14,7 +14,6 @@ A structured, self-hosted study guide for cracking software engineering intervie
 
 ## Tech Stack
 
-- [Docusaurus v3](https://docusaurus.io/) — React-based static site generator
 - Deployed to GitHub Pages
 
 ## Running Locally

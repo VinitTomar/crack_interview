@@ -1,4 +1,6 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useLayoutEffect, useMemo } from 'react';
+
+const useIsomorphicLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
 import TopicCard from './TopicCard';
 import styles from './styles.module.css';
 
@@ -23,12 +25,12 @@ export default function Roadmap({ levels, totalTopics, storageKey, title, subtit
   const [hydrated, setHydrated] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  useEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     setProgress(loadProgress(storageKey));
     setHydrated(true);
   }, [storageKey]);
 
-  useEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     function onScroll() { setIsScrolled(window.scrollY > 80); }
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
