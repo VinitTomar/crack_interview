@@ -64,43 +64,6 @@ const config = {
       },
       footer: {
         style: "light",
-        links: [
-          {
-            title: "HLD Resources",
-            items: [
-              {
-                label: "Hello Interview: System Design",
-                href: "https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction",
-              },
-              {
-                label: "Gaurav Sen Playlist",
-                href: "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
-              },
-              {
-                label: "InterviewReady",
-                href: "https://interviewready.io/course-page/system-design-course",
-              },
-            ],
-          },
-          {
-            title: "LLD Resources",
-            items: [
-              {
-                label: "Hello Interview: OOD",
-                href: "https://www.hellointerview.com/learn/code/object-oriented-design/introduction",
-              },
-              {
-                label: "Refactoring.Guru",
-                href: "https://refactoring.guru/design-patterns",
-              },
-              {
-                label: "Grokking OO Design",
-                href: "https://github.com/tssovi/grokking-the-object-oriented-design-interview",
-              },
-            ],
-          },
-        ],
-        copyright: `Built for interview prep.`,
       },
       prism: {
         theme: prismThemes.github,

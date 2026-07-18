@@ -1,0 +1,38 @@
+.footer {
+  background: var(--ifm-footer-background-color);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ifm-font-color-base);
+  margin: 0;
+}
+
+.githubLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--ifm-color-primary);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.githubLink:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: var(--ifm-color-secondary-darkest);
+  margin: 0;
+}
